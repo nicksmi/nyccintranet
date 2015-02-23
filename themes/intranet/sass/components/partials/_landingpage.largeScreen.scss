@@ -1,0 +1,8 @@
+div.view-landing-page-icons{
+	ul{
+		li{
+			margin-right:5px;
+			@include float-span(8, 2);
+		}
+	}
+}

@@ -1,0 +1,9 @@
+name = NYCC search document incon
+core = 7.x
+description = Adds a search icon to documents in the search results page
+
+
+package = 'NYCC'
+project = 'Search document icon'
+
+files[] = nycc_searchdocicon.module

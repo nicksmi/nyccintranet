@@ -1,0 +1,44 @@
+.block--nycc-social-icons-nycc-social-footer table {
+width:100%;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td {
+text-align:right;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td span.social-text {
+font-family:open_sanslight;
+font-size:1.8em;
+color:#ff6634;
+padding-right:5px;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td a {
+margin-left:5px;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td .fa {
+font-size:3em;
+cursor:pointer;
+color:#ff6634;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td .fa.fa-facebook-square:hover {
+color:#4C66A4;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td .fa.fa-twitter-square:hover {
+color:#55ACEE;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td .fa.fa-youtube-square:hover {
+color:#b00;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td .fa.fa-google-plus-square:hover {
+color:#dd4b39;
+}
+
+.block--nycc-social-icons-nycc-social-footer table tr.social-footer-row td .fa.fa-flickr:hover {
+color:#ff0084;
+}

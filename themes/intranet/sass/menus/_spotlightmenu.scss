@@ -1,0 +1,55 @@
+.menu-name-menu-technology-change-spotlight ul.menu,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu,
+nav.block--menu-menu-spotlight-menu > ul.menu,
+nav.block--menu-menu-marketplace-menu > ul.menu,
+.menu-name-menu-2020-spotlight ul.menu
+{
+  padding: 0;
+  margin: 0;
+}
+
+.menu-name-menu-technology-change-spotlight,
+.menu-name-menu-2020-spotlight{
+  margin-top:14px;
+}
+
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf,
+{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf > a,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf > a,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf > a,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf > a,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf > a
+{
+  font-family: open_sansbold;
+  font-size: 1.167em;
+  padding: 8px 0px 8px 40px;
+  color: $titleColour;
+  background-color: $spotlightMenuBackgroundColour;
+  width: 100%;
+  display: block;
+}
+
+
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf > a:hover,
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf > a:focus,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf > a:hover,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf > a:focus,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf > a:hover,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf > a:focus,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf > a:hover,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf > a:focus,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf > a:focus,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf > a:hover
+{
+  background-color: darken($spotlightMenuBackgroundColour, 5%);
+}

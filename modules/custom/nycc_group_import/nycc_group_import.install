@@ -1,0 +1,57 @@
+<?php
+
+
+function nycc_group_import_install() {
+
+}
+
+function nycc_group_import_uninstall() {
+
+}
+
+function nycc_group_import_schema() {
+
+
+	$schema['nycc_groups'] = array(
+
+	        'description' => 'Storing group information from ESS.',
+	        'fields' => array(
+	                'nycc_group_identifier' => array(
+	                        'description' => 'group identifier',
+	                        'type' => 'varchar',
+	                        'not null' => TRUE,
+	                        'length' => 5,
+	                ),
+	                'nycc_group_name' => array(
+	                        'description' => 'group name',
+	                        'type' => 'varchar',
+	                        'not null' => TRUE,
+	                        'length' => 255,
+	                ),
+	        ),
+	        'primary key' => array('nycc_group_identifier'),
+	);
+
+
+	$schema['nycc_users_in_groups'] = array(
+
+	        'description' => 'Storing users group information from ESS.',
+	        'fields' => array(
+	                'nycc_group_identifier' => array(
+	                        'description' => 'group identifier',
+	                        'type' => 'varchar',
+	                        'not null' => TRUE,
+	                        'length' => 5,
+	                ),
+	                'nycc_employee_number' => array(
+	                        'description' => 'employee number',
+	                        'type' => 'varchar',
+	                        'not null' => TRUE,
+	                        'length' => 15,
+	                ),
+	        ),
+
+	);
+
+	return $schema;
+}

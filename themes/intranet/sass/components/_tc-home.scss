@@ -1,0 +1,101 @@
+.view-t-c-blog-latest{
+    padding:6px;
+    border-width: 1px;
+    border-color: $border;
+    border-style: solid;
+    overflow:hidden;
+    margin-top:14px;
+    background-color:lighten($border, 10);
+
+    .views-field-picture{
+        float:left;
+        margin-right:5px;
+
+        img{
+            box-shadow: 1px 1px 2px #000;
+        }
+    }
+
+    .views-field-title{
+        h4{
+            @include reset;
+            a{
+                color: $mainColourLevel1;
+            }
+        }
+    }
+    .views-field-body{
+        font-family:open_sanslight;
+        p{
+            @include reset;
+        }
+    }
+    .views-field-view-node{
+        float:right;
+    }
+}
+
+
+.view-t-c-service-notices, .view-t-c-scheduled-maintenance{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+
+.view-t-c-service-notices, .view-t-c-scheduled-maintenance{
+    .auto-refresh{
+        display:none;
+    }
+
+    .view-content{
+        background-color:$intranetMessage;
+
+        .intranet-message{
+            h4{
+                font-family:open_sansregular;
+                font-size:1.167em;
+            }
+            li.last{
+                font-family:open_sanslight;
+            }
+            &:hover{
+                background-color:$intranetMessageHover;
+            }
+        }
+    }
+    .more-link{
+        a{
+            color: $mainColourLevel1;
+        }
+    }
+}
+
+
+.view-t-c-service-notices{
+    // Service update type filter
+    .views-submit-button{
+        input{
+            &.form-submit{
+                @include button-muted;
+                padding:3px 8px;
+                font-size:inherit;
+                margin-top:0;
+            }
+        }
+    }
+    .form-type-select{
+        select{
+            padding:3px;
+        }
+    }
+}
+
+// Styles for the paged view of notices
+.page-technology-change{
+    .view-content .intranet-message{
+        border-bottom:6px solid $siteBackgroundColour;
+    }
+}

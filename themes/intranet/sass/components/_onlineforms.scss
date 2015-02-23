@@ -1,0 +1,51 @@
+#redundancy-calc-form.form-results{
+	> div{
+		> h2{
+			color: $mainColourLevel1;
+			font-family: open_sanslight;
+			margin-bottom:0;
+		}
+
+		>span{
+			font-family: open_sanssemibold;
+		}
+
+		>div{
+			color: $mainColourLevel2;
+			font-size:1.3em;
+			margin-bottom:10px;
+		}
+		>p{
+			margin-top:0;
+		}
+	}
+}
+
+#leave-calc-form, #maternity-calc-form{
+	.container-inline-date{
+		.date-padding{
+			@include reset;
+		}
+	}
+
+	.description{
+		font-family: open_sanslight;
+	}
+
+	h3.inline-result{
+		border-bottom:thin solid $primary;
+		border-top: thin solid $primary;
+		padding: 10px 0;
+		text-align:center;
+		font-family:open_sanslight;
+
+		.fa{
+			color:$mainColourLevel2;
+			display:block;
+		}
+
+		>strong{
+			font-family:open_sanssemibold;
+		}
+	}
+}

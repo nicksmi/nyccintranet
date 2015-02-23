@@ -1,0 +1,120 @@
+.field--type-taxonomy-term-reference div.field__items div.field__item a, .taxonomy-term
+{
+	a.active, a{
+		color:#FFF;
+	}
+
+	float: left;
+	margin: 2px 10px 2px 0px;
+	padding: 2px 5px;
+	background-color: $tagBackgroundColour;
+	font-size: 0.833em;
+	color: #FFFFFF;
+}
+
+/** Taxonomy terms 'landing' page **/
+body.page-taxonomy-term{
+  .l-content > h1{
+    margin-bottom:0px;
+  }
+
+  div.term-listing-heading{
+    .flag-subscribe-to-tag{
+      margin:10px 0;
+    }
+  }
+
+  article{
+    border: thin dotted $primary;
+    padding: 5px;
+    @include transition(background-color, 0.2s);
+
+    footer{
+      p.submitted{
+        margin:0; padding:0;
+        font-size:0.917em;
+        border-bottom:thin solid $border;
+      }
+    }
+
+    ul.node__links{
+      li.node-readmore{
+        float:right;
+
+        a{
+          &:hover{
+            text-decoration: underline;
+          }
+
+          &:after{
+            font-family: FontAwesome;
+            content: "\00a0 \00a0 \f064";
+          }
+        }
+      }
+    }
+
+    &:last-child{
+      clear:both;
+    }
+
+    &:hover{
+      border:thin solid $primary;
+      background-color: lighten($border, 5%);
+      @include box-shadow();
+      @include transition(background-color, 0.5s);
+    }
+  }
+
+  a.feed-icon{
+    display:none;
+  }
+
+}
+
+.view-taxonomy-term{
+  margin-top:20px;
+}
+
+.view-cs-taxonomy-view{
+  .view-header{
+    a{
+      color: $mainColourLevel1;
+    }
+  }
+}
+
+
+/** Users by tag **/
+div.view-users-by-tag{
+  .field-content > a{
+    height:65px;
+    @include button-muted();
+    display:inline-block;
+    margin: 5px;
+
+    .user-picture{
+      float:left;
+      margin-right:5px;
+      img{
+        width:50px;
+        height:50px;
+      }
+    }
+
+    .field-detail-wrapper{
+        float:left;
+        h2{ 
+          margin: -4px 0 0 0;
+          color: $mainColourLevel1;
+        }
+        .field-job-title{
+          font-family:open_sanslight;
+          color:darken($border,40);
+        }
+    }
+
+
+
+}
+}

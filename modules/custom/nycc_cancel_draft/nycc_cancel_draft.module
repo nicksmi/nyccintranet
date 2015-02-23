@@ -1,0 +1,49 @@
+<?php
+/** 
+* @file
+* A module to add cancel buttons to content draft pages.
+*/
+
+/**
+ * Implements hook_form_alter().
+ */
+function nycc_cancel_draft_form_alter(&$form, &$form_state, $form_id) {
+  //an array of pages we want to add the cancel button too
+  $my_array = array_flip(array('article_node_form', 'wisdom_document_node_form', 'blog_node_form', 'intranet_group_node_page','landing_page_node_form','page_node_form','policy_document_node_form'));
+  if (isset($my_array[$form_id])){
+
+    //get the current url path
+    $path = $_SERVER['REQUEST_URI'];
+    //test if the current url path has the edit keyword within it
+    $find = 'edit';
+    $pos = strpos($path, $find);
+
+    if ($pos !== false) {
+
+      $form['actions']['cancel'] = array(
+        '#type'   => 'submit',
+        '#access' => TRUE,
+        '#value'  => 'Cancel',
+        '#weight' => 15,
+        //'#markup' => l(t('Cancel'), $destination),
+        '#limit_validation_errors' => array(),
+        '#validate' => array('nycc_cancel_draft_form_redirect'),
+      );
+
+       $form['actions']['cancel']['#attributes']['class'][] = 'form-submit';
+
+    }
+
+  }
+}
+
+function nycc_cancel_draft_form_redirect($form, &$form_state) {
+
+  if ($node = menu_get_object()) {
+    $nid = $node->nid;
+  }
+
+  $destination = "node/{$node->nid}";
+  drupal_goto($destination);
+
+ }

@@ -1,0 +1,3064 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\000033}}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: .800em;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/*
+input[type="submit"], input[type="button"], button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 3px 5px;
+  font-size: .800em;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000344}}
+input[type="submit"], input[type="button"], button, .form-actions a, input[type="submit"].button {
+  /*
+  color: #ffffff;
+  background-color: $mainColourLevel1;
+  border-color: $mainColourLevel2;
+  margin-right:5px;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+
+  &:hover{
+  	background-color:darken($mainColourLevel1, 8%);
+  }
+  &:active{
+    background-color:darken($mainColourLevel1, 20%);
+  }
+  */
+  color: #ffffff;
+  padding: 5px 8px;
+  background-color: #ff6634;
+  border: thin solid #fd9a00;
+  -ms-transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 3px;
+  font-size: .800em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000390}}
+  input[type="submit"]:hover, input[type="button"]:hover, button:hover, .form-actions a:hover, input[type="submit"].button:hover {
+    background-color: #ff470b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000393}}
+  input[type="submit"]:active, input[type="button"]:active, button:active, .form-actions a:active, input[type="submit"].button:active {
+    background-color: #cd3200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000367}}
+  input[type="submit"]#edit-preview, input[type="button"]#edit-preview, button#edit-preview, .form-actions a#edit-preview, input[type="submit"].button#edit-preview {
+    /* here if needed */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000371}}
+  input[type="submit"]#edit-cancel, input[type="button"]#edit-cancel, button#edit-cancel, .form-actions a#edit-cancel, input[type="submit"].button#edit-cancel {
+    border: thin solid #eceeed;
+    background-color: white;
+    color: #3e3e40;
+    padding: 5px 8px;
+    -ms-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+    input[type="submit"]#edit-cancel:hover, input[type="button"]#edit-cancel:hover, button#edit-cancel:hover, .form-actions a#edit-cancel:hover, input[type="submit"].button#edit-cancel:hover {
+      border: thin solid #ff6634;
+      background-color: #f9fafa;
+      -ms-transition: background-color 0.5s;
+      -webkit-transition: background-color 0.5s;
+      -moz-transition: background-color 0.5s;
+      transition: background-color 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+    input[type="submit"]#edit-cancel:active, input[type="button"]#edit-cancel:active, button#edit-cancel:active, .form-actions a#edit-cancel:active, input[type="submit"].button#edit-cancel:active {
+      background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000375}}
+  input[type="submit"]#edit-delete, input[type="submit"][value="Delete"], input[type="button"]#edit-delete, input[type="button"][value="Delete"], button#edit-delete, button[value="Delete"], .form-actions a#edit-delete, .form-actions a[value="Delete"], input[type="submit"].button#edit-delete, input[type="submit"].button[value="Delete"] {
+    border: thin solid #FF6B6B;
+    background-color: #FD3D3D;
+    padding: 5px 8px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\00003109}}
+    input[type="submit"]#edit-delete:hover, input[type="submit"][value="Delete"]:hover, input[type="button"]#edit-delete:hover, input[type="button"][value="Delete"]:hover, button#edit-delete:hover, button[value="Delete"]:hover, .form-actions a#edit-delete:hover, .form-actions a[value="Delete"]:hover, input[type="submit"].button#edit-delete:hover, input[type="submit"].button[value="Delete"]:hover {
+      border-color: thin solid #953131;
+      background-color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000379}}
+  input[type="submit"]:last-child, input[type="button"]:last-child, button:last-child, .form-actions a:last-child, input[type="submit"].button:last-child {
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000384}}
+div.launch-button {
+  border: 0 solid #CCCCCC;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 100%;
+  min-width: 400px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\00003125}}
+  div.launch-button a {
+    background: url("/sites/default/files/orange_button_small.png") no-repeat top right;
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    height: 50px;
+    padding-right: 40px;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\00003134}}
+    div.launch-button a:hover {
+      background-position: right -50px;
+      text-decoration: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\00003139}}
+    div.launch-button a:hover span {
+      background-position: 0 -50px;
+      color: #FFFFFF;
+      text-decoration: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\00003145}}
+    div.launch-button a span {
+      background: url("/sites/default/files/orange_button_large.png") no-repeat;
+      color: #FFFFFF;
+      display: block;
+      line-height: 50px;
+      padding: 0 0 0 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000392}}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\0000398}}
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003103}}
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003111}}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003119}}
+.btn-default {
+  color: #333333;
+  background-color: #e7e7e7;
+  border-color: #dadada; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003128}}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #d3d3d3;
+  border-color: #bbbbbb; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003135}}
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003152}}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #e7e7e7;
+  border-color: #dadada; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003156}}
+.btn-default .badge {
+  color: #e7e7e7;
+  background-color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003160}}
+.btn-primary {
+  color: #ffffff;
+  background-color: #00539F;
+  border-color: #0079a1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003169}}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #006d91;
+  border-color: #004b63; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003176}}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003193}}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #00539F;
+  border-color: #0079a1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003197}}
+.btn-primary .badge {
+  color: #00539F;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003201}}
+.btn-success {
+  color: #ffffff;
+  background-color: #43ac6a;
+  border-color: #3c9a5f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003210}}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #388f58;
+  border-color: #2b6e44; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003217}}
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003234}}
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #43ac6a;
+  border-color: #3c9a5f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003238}}
+.btn-success .badge {
+  color: #43ac6a;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003242}}
+.btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003251}}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003258}}
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003275}}
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003279}}
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003283}}
+.btn-warning {
+  color: #ffffff;
+  background-color: #e99002;
+  border-color: #d08002; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003292}}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #c17702;
+  border-color: #935b01; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003299}}
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003316}}
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #e99002;
+  border-color: #d08002; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003320}}
+.btn-warning .badge {
+  color: #e99002;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003324}}
+.btn-danger {
+  color: #ffffff;
+  background-color: #f04124;
+  border-color: #ea2f10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003333}}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #dc2c0f;
+  border-color: #b1240c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003340}}
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003357}}
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #f04124;
+  border-color: #ea2f10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003361}}
+.btn-danger .badge {
+  color: #f04124;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003365}}
+.btn-link {
+  color: #00539F;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003374}}
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003382}}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003386}}
+.btn-link:hover,
+.btn-link:focus {
+  color: #00526e;
+  text-decoration: underline;
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003394}}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003399}}
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 1.583em;
+  line-height: 1.33;
+  border-radius: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003406}}
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 1.000em;
+  line-height: 1.5;
+  border-radius: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003413}}
+.btn-xs,
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 1.000em;
+  line-height: 1.5;
+  border-radius: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003419}}
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003425}}
+.btn-block + .btn-block {
+  margin-top: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003430}}
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_forms\.scss}line{font-family:\00003434}}
+input.placeholder {
+  color: #aaa; }
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans_light/OpenSans-Light-webfont.eot");
+  src: url("../fonts/opensans_light/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans_light/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/opensans_light/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/opensans_light/OpenSans-Light-webfont.svg#open_sanslight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans_regular/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/opensans_regular/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans_regular/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/opensans_regular/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/opensans_regular/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans_semibold/OpenSans-Semibold-webfont.eot");
+  src: url("../fonts/opensans_semibold/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans_semibold/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/opensans_semibold/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/opensans_semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/opensans_bold/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/opensans_bold/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans_bold/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/opensans_bold/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/opensans_bold/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000345}}
+body {
+  font-family: open_sansregular, Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: .770em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000354}}
+.bold {
+  font-family: open_sansbold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000358}}
+.light {
+  font-family: open_sanslight; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000363}}
+h2 a {
+  color: #3e3e40; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000367}}
+h3 {
+  font-family: open_sansbold;
+  font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000372}}
+  h3.block__title {
+    border-top: 2px solid #eceeed;
+    border-bottom: 2px solid #eceeed;
+    margin-bottom: 10px;
+    padding: 6px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_typography\.scss}line{font-family:\0000380}}
+h4 {
+  font-weight: normal;
+  font-family: open_sansbold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\000031}}
+.ui-accordion {
+  width: 100%;
+  font-family: open_sansregular,Helvetica Neue,Helvetica,Arial,sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\000036}}
+  .ui-accordion .ui-accordion-header {
+    cursor: pointer;
+    position: relative;
+    margin-top: 1px;
+    zoom: 1;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: .3em .5em .3em 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000310}}
+    .ui-accordion .ui-accordion-header a {
+      display: block;
+      font-size: 1.1em;
+      padding: .1em .1em .1em .1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000312}}
+    .ui-accordion .ui-accordion-header .ui-icon {
+      position: absolute;
+      left: .5em;
+      top: 50%;
+      margin-top: -8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000316}}
+  .ui-accordion .ui-accordion-li-fix {
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000317}}
+  .ui-accordion .ui-accordion-header-active {
+    border-bottom: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000318}}
+  .ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    margin-top: -2px;
+    position: relative;
+    top: 1px;
+    margin-bottom: 2px;
+    overflow: auto;
+    display: none;
+    zoom: 1;
+    font-size: 0.88em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000320}}
+  .ui-accordion .ui-accordion-content-active {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_accordion\.scss}line{font-family:\0000323}}
+.ui-accordion-icons .ui-accordion-header a {
+  padding-left: 2.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\000031}}
+.dropdown {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\000034}}
+.dropdown-toggle:focus {
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\000037}}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  width: 300px;
+  padding: 5px 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0.833em;
+  background-color: white;
+  background-clip: padding-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000322}}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000326}}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000332}}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000341}}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000348}}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000356}}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000360}}
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000367}}
+.open > .dropdown-menu {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000370}}
+.open > a {
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000373}}
+.dropdown-menu-right {
+  left: auto;
+  right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000377}}
+.dropdown-menu-left {
+  left: 0;
+  right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000381}}
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 1.000em;
+  line-height: 1.42857143;
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000388}}
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\0000398}}
+.alert-link {
+  background-color: #FE0000;
+  padding: 8px 0;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  height: 32px;
+  width: 55px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003111}}
+.alert-link.empty {
+  background-color: green; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003116}}
+.dropdown-alerts {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003122}}
+.dropdown-alerts > li {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  float: left;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003130}}
+.dropdown-alerts > li a {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003136}}
+.dropdown-alerts > li > div.views-field-title {
+  float: left;
+  padding: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003142}}
+.dropdown-alerts > li > div.views-field-ops {
+  float: right;
+  padding: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003148}}
+a.view-profile {
+  background-color: #87888A;
+  color: #fff;
+  padding: 8px 25px 7px 25px;
+  height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003156}}
+.top-bar-text {
+  padding: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003164}}
+div.view-alerts div.view-header {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003171}}
+.dropdown-menu.dropdown-alerts {
+  border-left: 2px solid #fd9a00;
+  border-right: 2px solid #fd9a00;
+  border-bottom: 1px solid #fd9a00;
+  -moz-box-shadow: 5px 8px 15px 1px black;
+  -webkit-box-shadow: 5px 8px 15px 1px black;
+  box-shadow: 5px 8px 15px 1px black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003178}}
+  .dropdown-menu.dropdown-alerts li {
+    padding: 8px 5px;
+    border-top: thin solid #e4e7e5;
+    -ms-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003183}}
+    .dropdown-menu.dropdown-alerts li:hover {
+      background-color: #f1f3f2;
+      -ms-transition: background-color 0.6s;
+      -webkit-transition: background-color 0.6s;
+      -moz-transition: background-color 0.6s;
+      transition: background-color 0.6s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003189}}
+    .dropdown-menu.dropdown-alerts li .views-field-picture {
+      margin-right: 5px;
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003192}}
+      .dropdown-menu.dropdown-alerts li .views-field-picture img {
+        height: 50px;
+        width: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003198}}
+    .dropdown-menu.dropdown-alerts li .views-field-timestamp {
+      color: #fd9a00;
+      padding: 0 8px;
+      font-size: 1.1em;
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003205}}
+    .dropdown-menu.dropdown-alerts li .views-field-name a {
+      color: #ff6634;
+      font-family: open_sanssemibold;
+      font-size: 1.3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003211}}
+    .dropdown-menu.dropdown-alerts li .views-field-message-render {
+      font-family: open_sanslight;
+      font-size: 1.2em;
+      margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003216}}
+      .dropdown-menu.dropdown-alerts li .views-field-message-render p {
+        margin: 0;
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003221}}
+    .dropdown-menu.dropdown-alerts li .views-field-field-message-icon {
+      display: none;
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003226}}
+    .dropdown-menu.dropdown-alerts li .views-field.views-field-ops a {
+      border: thin solid #eceeed;
+      background-color: white;
+      color: #3e3e40;
+      padding: 5px 8px;
+      -ms-transition: background-color 0.2s;
+      -webkit-transition: background-color 0.2s;
+      -moz-transition: background-color 0.2s;
+      transition: background-color 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+      .dropdown-menu.dropdown-alerts li .views-field.views-field-ops a:hover {
+        border: thin solid #ff6634;
+        background-color: #f9fafa;
+        -ms-transition: background-color 0.5s;
+        -webkit-transition: background-color 0.5s;
+        -moz-transition: background-color 0.5s;
+        transition: background-color 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+      .dropdown-menu.dropdown-alerts li .views-field.views-field-ops a:active {
+        background-color: #dfe2e0; }
+
+/** Swing when you've got alerts **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003241}}
+.view-alerts a.dropdown-toggle i.fa-bell {
+  animation: 4s ease 0s normal none infinite swing;
+  transform-origin: center top;
+  -webkit-animation: 4s ease 0s normal none infinite swing;
+  -webkit-transform-origin: center top;
+  -moz-animation: 4s ease 0s normal none infinite swing;
+  -moz-transform-origin: center top;
+  -o-animation: 4s ease 0s normal none infinite swing;
+  -o-transform-origin: center top;
+  font-size: 1.2em; }
+
+@keyframes swing {
+  /* line 261, ../sass/components/_alerts.scss */
+  0% {
+    transform: rotate(10deg); }
+
+  /* line 264, ../sass/components/_alerts.scss */
+  50% {
+    transform: rotate(-10deg); }
+
+  /* line 267, ../sass/components/_alerts.scss */
+  100% {
+    transform: rotate(10deg); } }
+
+@-moz-keyframes swing {
+  /* line 273, ../sass/components/_alerts.scss */
+  0% {
+    -moz-transform: rotate(10deg); }
+
+  /* line 276, ../sass/components/_alerts.scss */
+  50% {
+    -moz-transform: rotate(-10deg); }
+
+  /* line 279, ../sass/components/_alerts.scss */
+  100% {
+    -moz-transform: rotate(10deg); } }
+
+@-webkit-keyframes swing {
+  /* line 285, ../sass/components/_alerts.scss */
+  0% {
+    -webkit-transform: rotate(10deg); }
+
+  /* line 288, ../sass/components/_alerts.scss */
+  50% {
+    -webkit-transform: rotate(-10deg); }
+
+  /* line 291, ../sass/components/_alerts.scss */
+  100% {
+    -webkit-transform: rotate(10deg); } }
+
+@-o-keyframes swing {
+  /* line 297, ../sass/components/_alerts.scss */
+  0% {
+    -o-transform: rotate(10deg); }
+
+  /* line 300, ../sass/components/_alerts.scss */
+  50% {
+    -o-transform: rotate(-10deg); }
+
+  /* line 303, ../sass/components/_alerts.scss */
+  100% {
+    -o-transform: rotate(10deg); } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003310}}
+.l-region--topbar {
+  width: 100%;
+  min-height: 28px;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003315}}
+  .l-region--topbar .user-info-wrapper {
+    background-color: #eceeed;
+    float: right;
+    height: 32px;
+    min-width: 33.3333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003321}}
+    .l-region--topbar .user-info-wrapper .top-bar-widgets {
+      width: 225px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003326}}
+  .l-region--topbar .user-info-wrapper-toggle {
+    height: 32px;
+    padding-top: 3px;
+    width: 30px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    display: none; }
+  @media screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003338}}
+    .l-region--topbar .user-info-wrapper {
+      min-width: 33.3333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003341}}
+      .l-region--topbar .user-info-wrapper .user-info-wrapper-toggle {
+        display: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003345}}
+      .l-region--topbar .user-info-wrapper .view-profile {
+        display: block; } }
+  @media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003353}}
+    .l-region--topbar .user-info-wrapper {
+      position: absolute;
+      top: -35px;
+      right: 0;
+      width: 100%;
+      position: fixed;
+      z-index: 2000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003361}}
+      .l-region--topbar .user-info-wrapper .top-bar-widgets {
+        width: 260px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003367}}
+    .l-region--topbar .user-info-wrapper-toggle {
+      display: block;
+      position: absolute;
+      top: 35px;
+      right: 0;
+      background-color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003374}}
+      .l-region--topbar .user-info-wrapper-toggle.inline {
+        position: inherit; } }
+  @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003382}}
+    .l-region--topbar .user-info-wrapper .top-bar-widgets {
+      width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alerts\.scss}line{font-family:\00003386}}
+    .l-region--topbar .user-info-wrapper .view-profile {
+      display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\000032}}
+div.view-alerts-history {
+  font-size: 1em;
+  font-family: open_sanssemibold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\000037}}
+  div.view-alerts-history p {
+    margin: 0;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000313}}
+  div.view-alerts-history div.views-row {
+    float: left;
+    clear: both;
+    width: 100%;
+    border-bottom: 1px solid #eceeed;
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000322}}
+  div.view-alerts-history div.views-field-picture {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000326}}
+    div.view-alerts-history div.views-field-picture div.field-content {
+      padding: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000330}}
+      div.view-alerts-history div.views-field-picture div.field-content img {
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000338}}
+  div.view-alerts-history div.views-field-nothing {
+    padding-left: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000342}}
+    div.view-alerts-history div.views-field-nothing div.views-field-timestamp {
+      color: #fd9a00;
+      font-size: 0.833em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000346}}
+    div.view-alerts-history div.views-field-nothing div.views-field-message-render {
+      font-family: open_sansregular; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000351}}
+    div.view-alerts-history div.views-field-nothing a {
+      color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000358}}
+  div.view-alerts-history div.more-link a {
+    border: thin solid #eceeed;
+    background-color: white;
+    color: #3e3e40;
+    padding: 5px 8px;
+    -ms-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    font-family: open_sansregular; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+    div.view-alerts-history div.more-link a:hover {
+      border: thin solid #ff6634;
+      background-color: #f9fafa;
+      -ms-transition: background-color 0.5s;
+      -webkit-transition: background-color 0.5s;
+      -moz-transition: background-color 0.5s;
+      transition: background-color 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+    div.view-alerts-history div.more-link a:active {
+      background-color: #dfe2e0; }
+
+/** We need to override the appearance slightly if this is being viewed
+    from the 'profile' page e.g. /user **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_alertshistory\.scss}line{font-family:\0000372}}
+.standard2col-right-col .view-alerts-history .views-field-nothing {
+  margin-left: 5px;
+  width: 85%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_articlebullets\.scss}line{font-family:\000039}}
+div.field--type-text-with-summary div.field__items div.field__item ul {
+  overflow: hidden;
+  padding-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_calendar\.scss}line{font-family:\000033}}
+.view-calendar .date-nav-wrapper .date-nav {
+  border: thin solid #ff6634;
+  padding: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_calendar\.scss}line{font-family:\000037}}
+  .view-calendar .date-nav-wrapper .date-nav ul.pager {
+    list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_calendar\.scss}line{font-family:\0000310}}
+    .view-calendar .date-nav-wrapper .date-nav ul.pager li {
+      border: thin solid #eceeed;
+      background-color: white;
+      color: #3e3e40;
+      padding: 5px 8px;
+      -ms-transition: background-color 0.2s;
+      -webkit-transition: background-color 0.2s;
+      -moz-transition: background-color 0.2s;
+      transition: background-color 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+      .view-calendar .date-nav-wrapper .date-nav ul.pager li:hover {
+        border: thin solid #ff6634;
+        background-color: #f9fafa;
+        -ms-transition: background-color 0.5s;
+        -webkit-transition: background-color 0.5s;
+        -moz-transition: background-color 0.5s;
+        transition: background-color 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+      .view-calendar .date-nav-wrapper .date-nav ul.pager li:active {
+        background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_calendar\.scss}line{font-family:\0000313}}
+      .view-calendar .date-nav-wrapper .date-nav ul.pager li.date-prev {
+        right: 75px; }
+
+/** Reply to individual comments.. **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\000032}}
+div.indented {
+  margin-left: 0;
+  padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\000037}}
+  div.indented article.comment {
+    padding-left: 5px;
+    border-top: none;
+    margin-top: 2px;
+    border-top: thin dotted #ff6634;
+    background-color: #f9fafa;
+    margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000315}}
+    div.indented article.comment .comment-title-bar {
+      border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000318}}
+      div.indented article.comment .comment-title-bar .user-picture img {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000324}}
+      div.indented article.comment .comment-title-bar .comment-info
+      span {
+        display: inline-block;
+        font-size: 0.9em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000329}}
+      div.indented article.comment .comment-title-bar h2 {
+        display: inline-block;
+        margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000333}}
+        div.indented article.comment .comment-title-bar h2 span a {
+          color: #fd9a00;
+          font-size: 0.8em; }
+
+/** Comments **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000343}}
+article.comment {
+  margin-top: 20px;
+  border-top: thin solid #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000347}}
+  article.comment .comment-title-bar {
+    clear: both;
+    overflow: hidden;
+    border-bottom: thin solid #f1f3f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000352}}
+    article.comment .comment-title-bar .comment-author-image {
+      float: left;
+      margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000356}}
+      article.comment .comment-title-bar .comment-author-image img {
+        height: 3.5em;
+        width: 3.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000362}}
+    article.comment .comment-title-bar .comment-info {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000365}}
+      article.comment .comment-title-bar .comment-info h2 {
+        margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000368}}
+        article.comment .comment-title-bar .comment-info h2 span a {
+          color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000375}}
+      article.comment .comment-title-bar .comment-info span {
+        font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000381}}
+  article.comment .comment__content {
+    clear: both;
+    margin-bottom: 10px;
+    font-family: open_sanslight;
+    font-size: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000387}}
+    article.comment .comment__content p:first-child {
+      margin-top: 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000392}}
+  article.comment ul.comment__links {
+    margin-top: -8px;
+    padding-bottom: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000396}}
+    article.comment ul.comment__links li {
+      border: thin solid #eceeed;
+      background-color: white;
+      color: #3e3e40;
+      padding: 5px 8px;
+      -ms-transition: background-color 0.2s;
+      -webkit-transition: background-color 0.2s;
+      -moz-transition: background-color 0.2s;
+      transition: background-color 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+      article.comment ul.comment__links li:hover {
+        border: thin solid #ff6634;
+        background-color: #f9fafa;
+        -ms-transition: background-color 0.5s;
+        -webkit-transition: background-color 0.5s;
+        -moz-transition: background-color 0.5s;
+        transition: background-color 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+      article.comment ul.comment__links li:active {
+        background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\0000399}}
+      article.comment ul.comment__links li.comment-delete a:before {
+        font-family: FontAwesome;
+        content: "\f00d \00a0"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\00003104}}
+      article.comment ul.comment__links li.comment-reply a:before {
+        font-family: FontAwesome;
+        content: "\f112 \00a0"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_comments\.scss}line{font-family:\00003109}}
+      article.comment ul.comment__links li.comment-edit a:before {
+        font-family: FontAwesome;
+        content: "\f044 \00a0"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_drupaltabs\.scss}line{font-family:\000032}}
+ul.tabs--primary {
+  border-bottom: 2px solid #ff6634;
+  list-style: none;
+  display: block;
+  margin: 0px;
+  width: 100%;
+  padding: 0;
+  border-top: 2px solid #ECEEED; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_drupaltabs\.scss}line{font-family:\0000313}}
+  ul.tabs--primary li {
+    float: left;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_drupaltabs\.scss}line{font-family:\0000318}}
+    ul.tabs--primary li a {
+      margin-right: 2px;
+      line-height: 1.42857143;
+      font-size: 1.167em;
+      color: #C1C1C1;
+      font-family: open_sansbold;
+      background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_drupaltabs\.scss}line{font-family:\0000327}}
+    ul.tabs--primary li a:hover, ul.tabs--primary li a:focus {
+      text-decoration: none;
+      background-color: #fff;
+      color: #3e3e40;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_drupaltabs\.scss}line{font-family:\0000340}}
+  ul.tabs--primary li.active a, ul.tabs--primary li.active a:hover, ul.tabs--primary li.active a:focus {
+    text-decoration: none;
+    background-color: #fff;
+    color: #3e3e40;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\000032}}
+footer .block-copyright-block {
+  clear: none;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\000036}}
+  footer .block-copyright-block p {
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
+footer nav.block {
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
+  footer nav.block .menu-name-menu-footer-menu {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000317}}
+    footer nav.block .menu-name-menu-footer-menu ul.menu {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000322}}
+      footer nav.block .menu-name-menu-footer-menu ul.menu li {
+        display: inline;
+        padding: 0;
+        margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000329}}
+        footer nav.block .menu-name-menu-footer-menu ul.menu li > div {
+          display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000331}}
+          footer nav.block .menu-name-menu-footer-menu ul.menu li > div span a:hover {
+            text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000336}}
+        footer nav.block .menu-name-menu-footer-menu ul.menu li:before {
+          content: "| "; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_footer\.scss}line{font-family:\0000339}}
+        footer nav.block .menu-name-menu-footer-menu ul.menu li:first-child:before {
+          content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\000038}}
+div.view-landing-page-icons {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000312}}
+  div.view-landing-page-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000318}}
+    div.view-landing-page-icons ul li {
+      width: 100%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      min-height: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000322}}
+      div.view-landing-page-icons ul li > div {
+        min-height: 80px;
+        padding: 8px 8px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-transition: background-color, 0.4s;
+        -moz-transition: background-color, 0.4s;
+        -o-transition: background-color, 0.4s;
+        transition: background-color, 0.4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000323}}
+        div.view-landing-page-icons ul li > div:hover {
+          background-color: #ffcaa6;
+          -webkit-transition: background-color, 0.1s;
+          -moz-transition: background-color, 0.1s;
+          -o-transition: background-color, 0.1s;
+          transition: background-color, 0.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000336}}
+  div.view-landing-page-icons a > div.landing-page-icon {
+    display: block;
+    float: left;
+    padding-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000343}}
+  div.view-landing-page-icons a > div.landing-page-text-wrapper {
+    padding: 0 10px;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000344}}
+    div.view-landing-page-icons a > div.landing-page-text-wrapper h3 {
+      margin: 0;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000349}}
+    div.view-landing-page-icons a > div.landing-page-text-wrapper p {
+      margin-top: 0.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000362}}
+.block--views-landing-page-more-block .item-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000367}}
+  .block--views-landing-page-more-block .item-list ul li {
+    display: inline;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000374}}
+    .block--views-landing-page-more-block .item-list ul li > div {
+      display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000376}}
+      .block--views-landing-page-more-block .item-list ul li > div span a:hover {
+        text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000381}}
+    .block--views-landing-page-more-block .item-list ul li:before {
+      content: "| "; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_landingpage\.scss}line{font-family:\0000384}}
+    .block--views-landing-page-more-block .item-list ul li:first-child:before {
+      content: ""; }
+
+@media screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_landingpage\.mediumScreen\.scss}line{font-family:\000033}}
+  div.view-landing-page-icons ul li {
+    width: 49.47368%;
+    clear: right;
+    float: left; } }
+@media screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_landingpage\.largeScreen\.scss}line{font-family:\000033}}
+  div.view-landing-page-icons ul li {
+    margin-right: 5px;
+    width: 32.63158%;
+    clear: right;
+    float: left; } }
+/** Terms & Conditions **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\000034}}
+.section-termsandconditions .l-content a {
+  color: #ff6634; }
+
+/** Marketplace **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000313}}
+.view-marketplace table {
+  border-collapse: collapse;
+  cursor: default;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000318}}
+  .view-marketplace table th {
+    border-bottom: 3px solid #ff6634;
+    background-color: white;
+    padding: 5px;
+    font-size: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000324}}
+    .view-marketplace table th a.active {
+      color: #3e3e40; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000330}}
+  .view-marketplace table tbody tr {
+    border-top: thin solid #d1d6d3;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000334}}
+    .view-marketplace table tbody tr:hover td {
+      background-color: #f3b7a3 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000338}}
+    .view-marketplace table tbody tr:first-child {
+      border-top: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000342}}
+    .view-marketplace table tbody tr.odd, .view-marketplace table tbody tr.odd td.active {
+      background-color: #f9fafa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000346}}
+    .view-marketplace table tbody tr.even, .view-marketplace table tbody tr.even td.active {
+      background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000350}}
+    .view-marketplace table tbody tr td {
+      padding: 10px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000354}}
+      .view-marketplace table tbody tr td.views-field-field-cost {
+        color: #ff6634;
+        font-size: 1.1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000359}}
+      .view-marketplace table tbody tr td.views-field-field-category-sale {
+        color: #8a8a8d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000372}}
+.node--marketplace-for-sale--full .field--name-field-image-sale .field__item {
+  float: left;
+  margin: 20px 20px 10px 0;
+  height: 100px;
+  overflow: hidden;
+  padding-top: 10px;
+  border: thin solid #eceeed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_marketplace\.scss}line{font-family:\0000381}}
+  .node--marketplace-for-sale--full .field--name-field-image-sale .field__item:hover {
+    border: thin solid #ff6634; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\000036}}
+div.l-region--home-news ul.nav > li > a, div.l-region--home-news ul.nav > li > a:active {
+  position: relative;
+  display: block;
+  padding: 6px 30px 6px 0px;
+  background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000314}}
+div.l-region--home-news ul.nav > li > a:hover, div.l-region--home-news ul.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #fff;
+  color: #3e3e40;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000321}}
+div.l-region--home-news h3 {
+  font-family: open_sansbold;
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000329}}
+div.l-region--home-news p {
+  margin: 0;
+  color: #86878C; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000335}}
+div.l-region--home-news div.field--type-image {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000340}}
+div.l-region--home-news a.news-summary-link {
+  padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000344}}
+  div.l-region--home-news a.news-summary-link:hover {
+    background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000349}}
+  div.l-region--home-news a.news-summary-link.active {
+    background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000359}}
+div.l-region--home-news .nav-tabs {
+  border-bottom: 2px solid #ff6634;
+  list-style: none;
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0px;
+  width: 100%;
+  padding: 0;
+  border-top: 2px solid #ECEEED; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000372}}
+  div.l-region--home-news .nav-tabs > li {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000375}}
+    div.l-region--home-news .nav-tabs > li > a {
+      margin-right: 2px;
+      line-height: 1.42857143;
+      font-size: 1.167em;
+      color: #C1C1C1;
+      font-family: open_sansbold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\0000388}}
+  div.l-region--home-news .nav-tabs > li.active a, div.l-region--home-news .nav-tabs > li.active a:hover, div.l-region--home-news .nav-tabs > li.active a:focus {
+    text-decoration: none;
+    background-color: #fff;
+    color: #3e3e40;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003102}}
+div.l-region--home-news .tab-content {
+  color: #86878C;
+  clear: both;
+  float: left;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003109}}
+  div.l-region--home-news .tab-content > .tab-pane {
+    display: none;
+    float: left;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003115}}
+  div.l-region--home-news .tab-content > .active {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003121}}
+  div.l-region--home-news .tab-content .view-content {
+    background-color: #dfe2e0;
+    min-height: 220px;
+    float: left;
+    width: 100%;
+    max-width: 610px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003130}}
+  div.l-region--home-news .tab-content div.more-link {
+    background-color: #ECEEED;
+    text-align: left;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    float: left;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003141}}
+  div.l-region--home-news .tab-content div.tab-news-image {
+    float: right;
+    width: 40%;
+    background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003147}}
+    div.l-region--home-news .tab-content div.tab-news-image img {
+      border: 5px solid #dfe2e0;
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003156}}
+  div.l-region--home-news .tab-content .tab-pane ul.tab-row-container {
+    float: left;
+    width: 58%;
+    min-height: 220px;
+    background-color: #ECEEED;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003171}}
+div.mobNews > div {
+  border-bottom: thin solid #efefef;
+  padding: 8px 5px;
+  clear: both;
+  overflow: hidden;
+  transition: background-color 0.5s;
+  cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003179}}
+  div.mobNews > div:hover {
+    background-color: #ffd9cd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003183}}
+  div.mobNews > div a.mobNewsBtn {
+    height: 35px;
+    width: 35px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #ff6634;
+    float: right;
+    font-size: 1.2em;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003193}}
+    div.mobNews > div a.mobNewsBtn:hover {
+      background-color: #ff4001; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003198}}
+  div.mobNews > div div.mobNewsContent {
+    float: left;
+    width: 85%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newscarousel\.scss}line{font-family:\00003201}}
+    div.mobNews > div div.mobNewsContent h4 {
+      margin: 0 0; }
+
+/** News overview pages.. corporate news **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\000033}}
+div.view-corporate-news div.views-row, div.view-directorate-news div.views-row {
+  margin-top: 15px;
+  border-top: thin solid #eceeed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\000034}}
+  div.view-corporate-news div.views-row:first-child, div.view-directorate-news div.views-row:first-child {
+    margin-top: 0;
+    border-top: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\0000314}}
+  div.view-corporate-news div.views-row article.node--article.node--article--teaser header h2, div.view-directorate-news div.views-row article.node--article.node--article--teaser header h2 {
+    margin: 0;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\0000316}}
+    div.view-corporate-news div.views-row article.node--article.node--article--teaser header h2 a, div.view-directorate-news div.views-row article.node--article.node--article--teaser header h2 a {
+      color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\0000323}}
+  div.view-corporate-news div.views-row article.node--article.node--article--teaser footer.node__submitted p.submitted, div.view-directorate-news div.views-row article.node--article.node--article--teaser footer.node__submitted p.submitted {
+    margin: 0;
+    padding: 0;
+    font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\0000329}}
+  div.view-corporate-news div.views-row article.node--article.node--article--teaser div.field--name-field-image, div.view-directorate-news div.views-row article.node--article.node--article--teaser div.field--name-field-image {
+    float: left;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_newsoverview\.scss}line{font-family:\0000335}}
+  div.view-corporate-news div.views-row article.node--article.node--article--teaser ul.links--inline li, div.view-directorate-news div.views-row article.node--article.node--article--teaser ul.links--inline li {
+    border: thin solid #eceeed;
+    background-color: white;
+    color: #3e3e40;
+    padding: 5px 8px;
+    -webkit-transition: background-color, 0.2s;
+    -moz-transition: background-color, 0.2s;
+    -o-transition: background-color, 0.2s;
+    transition: background-color, 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+    div.view-corporate-news div.views-row article.node--article.node--article--teaser ul.links--inline li:hover, div.view-directorate-news div.views-row article.node--article.node--article--teaser ul.links--inline li:hover {
+      border: thin solid #ff6634;
+      background-color: #f9fafa;
+      -webkit-transition: background-color, 0.5s;
+      -moz-transition: background-color, 0.5s;
+      -o-transition: background-color, 0.5s;
+      transition: background-color, 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+    div.view-corporate-news div.views-row article.node--article.node--article--teaser ul.links--inline li:active, div.view-directorate-news div.views-row article.node--article.node--article--teaser ul.links--inline li:active {
+      background-color: #dfe2e0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\000033}}
+#redundancy-calc-form.form-results > div > h2 {
+  color: #ff6634;
+  font-family: open_sanslight;
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\000039}}
+#redundancy-calc-form.form-results > div > span {
+  font-family: open_sanssemibold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000313}}
+#redundancy-calc-form.form-results > div > div {
+  color: #fd9a00;
+  font-size: 1.3em;
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000318}}
+#redundancy-calc-form.form-results > div > p {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000326}}
+#leave-calc-form .container-inline-date .date-padding, #maternity-calc-form .container-inline-date .date-padding {
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000331}}
+#leave-calc-form .description, #maternity-calc-form .description {
+  font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000335}}
+#leave-calc-form h3.inline-result, #maternity-calc-form h3.inline-result {
+  border-bottom: thin solid #ff6634;
+  border-top: thin solid #ff6634;
+  padding: 10px 0;
+  text-align: center;
+  font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000342}}
+  #leave-calc-form h3.inline-result .fa, #maternity-calc-form h3.inline-result .fa {
+    color: #fd9a00;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_onlineforms\.scss}line{font-family:\0000347}}
+  #leave-calc-form h3.inline-result > strong, #maternity-calc-form h3.inline-result > strong {
+    font-family: open_sanssemibold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_poll\.scss}line{font-family:\000032}}
+form.poll-view-voting .poll-vote-form {
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_poll\.scss}line{font-family:\000035}}
+  form.poll-view-voting .poll-vote-form .poll-vote-form__choices {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_poll\.scss}line{font-family:\0000312}}
+div.poll-bars__bar {
+  background-color: #eceeed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  height: 15px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_poll\.scss}line{font-family:\0000318}}
+  div.poll-bars__bar div.foreground {
+    background-color: #ff6634;
+    height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\000031}}
+.l-region--topsearch {
+  color: #FFF;
+  clear: both;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fe6732), color-stop(100%, #ff9702));
+  background-image: -webkit-linear-gradient(#fe6732, #ff9702);
+  background-image: -moz-linear-gradient(#fe6732, #ff9702);
+  background-image: -o-linear-gradient(#fe6732, #ff9702);
+  background-image: linear-gradient(#fe6732, #ff9702);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FE6732', endColorstr='#FF9702', GradientType=0);
+  /* IE6-8 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\000037}}
+  .l-region--topsearch .block--search-form {
+    margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000313}}
+    .l-region--topsearch .block--search-form .search-bar .search-form input[type='submit'] {
+      padding: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000317}}
+    .l-region--topsearch .block--search-form .search-bar .search-form input[type='text'] {
+      font-size: .800em;
+      line-height: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000321}}
+      .l-region--topsearch .block--search-form .search-bar .search-form input[type='text'].form-autocomplete {
+        background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000329}}
+.contextual-search-form {
+  padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000332}}
+  .contextual-search-form .form-text {
+    font-size: .800em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000336}}
+  .contextual-search-form .form-submit {
+    margin-top: -2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000344}}
+section.search-results article.search-result p.search-result__snippet {
+  padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000348}}
+section.search-results article.search-result > footer, section.search-results article.search-result > footer a {
+  color: #ff6634; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000355}}
+div.spelling-suggestions dt {
+  display: inline;
+  margin-right: 0.3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_search\.scss}line{font-family:\0000360}}
+div.spelling-suggestions dd {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.smallScreen\.scss}line{font-family:\000032}}
+.l-region--topsearch div.search-bar {
+  padding-top: 4px;
+  padding-bottom: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.smallScreen\.scss}line{font-family:\000036}}
+  .l-region--topsearch div.search-bar #searchTagline {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.smallScreen\.scss}line{font-family:\0000310}}
+  .l-region--topsearch div.search-bar div.search-form {
+    float: none;
+    padding: 0 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.smallScreen\.scss}line{font-family:\0000314}}
+    .l-region--topsearch div.search-bar div.search-form input[type='submit'] {
+      margin: -4px 0 -0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.smallScreen\.scss}line{font-family:\0000318}}
+    .l-region--topsearch div.search-bar div.search-form input[type="text"] {
+      width: 70%; }
+
+@media screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\000031}}
+  .l-region--topsearch {
+    min-width: 960px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\000034}}
+    .l-region--topsearch div.search-bar {
+      font-size: 28px;
+      padding: 10px 0;
+      overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\000039}}
+      .l-region--topsearch div.search-bar #searchTagline {
+        display: block;
+        float: left;
+        padding-top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\0000315}}
+      .l-region--topsearch div.search-bar div.search-form {
+        float: right;
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\0000319}}
+        .l-region--topsearch div.search-bar div.search-form input[type='submit'] {
+          margin: 2px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\0000324}}
+        .l-region--topsearch div.search-bar div.search-form input[type="text"] {
+          width: 280px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_searchresults\.scss}line{font-family:\000036}}
+.search-results article.user-profile > div {
+  float: right;
+  width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_searchresults\.scss}line{font-family:\0000312}}
+.search-results article.user-profile div.user-picture {
+  width: 20%;
+  padding: 0;
+  margin-right: 10px;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_searchresults\.scss}line{font-family:\0000320}}
+.search-results article.user-profile div.field--type-taxonomy-term-reference {
+  clear: both;
+  width: 100%;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_searchresults\.scss}line{font-family:\0000328}}
+.search-results article.user-profile div.field--name-field-service-unit, .search-results article.user-profile div.field--name-field-site,
+.search-results article.user-profile div.field--name-field-location, .search-results article.user-profile section.user-profile-category-actions {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_searchresults\.scss}line{font-family:\0000336}}
+.search-results article.search-result {
+  float: left;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ECEEED;
+  clear: both;
+  width: 100%; }
+
+/* Staff blogs block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_staffblogs\.scss}line{font-family:\000033}}
+.view-blog-authors-new .views-row {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fd9a00;
+  background-color: #eceeed;
+  padding: 8px 0 8px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_staffblogs\.scss}line{font-family:\000039}}
+  .view-blog-authors-new .views-row .views-field-picture {
+    float: left;
+    padding-top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_staffblogs\.scss}line{font-family:\0000314}}
+  .view-blog-authors-new .views-row .views-field-name-1 {
+    padding-left: 40px;
+    font-family: open_sanslight;
+    font-size: 1.3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_staffblogs\.scss}line{font-family:\0000318}}
+    .view-blog-authors-new .views-row .views-field-name-1 a {
+      color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_staffblogs\.scss}line{font-family:\0000323}}
+  .view-blog-authors-new .views-row .views-field-ops {
+    padding-left: 40px;
+    font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_staffblogs\.scss}line{font-family:\0000328}}
+  .view-blog-authors-new .views-row .flag-throbber {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\000032}}
+.field--type-taxonomy-term-reference div.field__items div.field__item a, .taxonomy-term {
+  float: left;
+  margin: 2px 10px 2px 0px;
+  padding: 2px 5px;
+  background-color: #87888a;
+  font-size: 0.833em;
+  color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\000033}}
+  .field--type-taxonomy-term-reference div.field__items div.field__item a a.active, .field--type-taxonomy-term-reference div.field__items div.field__item a a, .taxonomy-term a.active, .taxonomy-term a {
+    color: #FFF; }
+
+/** Taxonomy terms 'landing' page **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000317}}
+body.page-taxonomy-term .l-content > h1 {
+  margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000322}}
+body.page-taxonomy-term div.term-listing-heading .flag-subscribe-to-tag {
+  margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000327}}
+body.page-taxonomy-term article {
+  border: thin dotted #ff6634;
+  padding: 5px;
+  -webkit-transition: background-color, 0.2s;
+  -moz-transition: background-color, 0.2s;
+  -o-transition: background-color, 0.2s;
+  transition: background-color, 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000333}}
+  body.page-taxonomy-term article footer p.submitted {
+    margin: 0;
+    padding: 0;
+    font-size: 0.917em;
+    border-bottom: thin solid #eceeed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000341}}
+  body.page-taxonomy-term article ul.node__links li.node-readmore {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000345}}
+    body.page-taxonomy-term article ul.node__links li.node-readmore a:hover {
+      text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000349}}
+    body.page-taxonomy-term article ul.node__links li.node-readmore a:after {
+      font-family: FontAwesome;
+      content: "\00a0 \00a0 \f064"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000357}}
+  body.page-taxonomy-term article:last-child {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000361}}
+  body.page-taxonomy-term article:hover {
+    border: thin solid #ff6634;
+    background-color: #f9fafa;
+    -webkit-box-shadow: 0px 0px 5px #333333;
+    -moz-box-shadow: 0px 0px 5px #333333;
+    box-shadow: 0px 0px 5px #333333;
+    -webkit-transition: background-color, 0.5s;
+    -moz-transition: background-color, 0.5s;
+    -o-transition: background-color, 0.5s;
+    transition: background-color, 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000369}}
+body.page-taxonomy-term a.feed-icon {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000375}}
+.view-taxonomy-term {
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000381}}
+.view-cs-taxonomy-view .view-header a {
+  color: #ff6634; }
+
+/** Users by tag **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000390}}
+div.view-users-by-tag .field-content > a {
+  height: 65px;
+  border: thin solid #eceeed;
+  background-color: white;
+  color: #3e3e40;
+  padding: 5px 8px;
+  -webkit-transition: background-color, 0.2s;
+  -moz-transition: background-color, 0.2s;
+  -o-transition: background-color, 0.2s;
+  transition: background-color, 0.2s;
+  display: inline-block;
+  margin: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+  div.view-users-by-tag .field-content > a:hover {
+    border: thin solid #ff6634;
+    background-color: #f9fafa;
+    -webkit-transition: background-color, 0.5s;
+    -moz-transition: background-color, 0.5s;
+    -o-transition: background-color, 0.5s;
+    transition: background-color, 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+  div.view-users-by-tag .field-content > a:active {
+    background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000396}}
+  div.view-users-by-tag .field-content > a .user-picture {
+    float: left;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\0000399}}
+    div.view-users-by-tag .field-content > a .user-picture img {
+      width: 50px;
+      height: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\00003105}}
+  div.view-users-by-tag .field-content > a .field-detail-wrapper {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\00003107}}
+    div.view-users-by-tag .field-content > a .field-detail-wrapper h2 {
+      margin: -4px 0 0 0;
+      color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_taxonomy\.scss}line{font-family:\00003111}}
+    div.view-users-by-tag .field-content > a .field-detail-wrapper .field-job-title {
+      font-family: open_sanslight;
+      color: #808e87; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\000031}}
+.view-t-c-blog-latest {
+  padding: 6px;
+  border-width: 1px;
+  border-color: #eceeed;
+  border-style: solid;
+  overflow: hidden;
+  margin-top: 14px;
+  background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000310}}
+  .view-t-c-blog-latest .views-field-picture {
+    float: left;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000314}}
+    .view-t-c-blog-latest .views-field-picture img {
+      box-shadow: 1px 1px 2px #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000320}}
+  .view-t-c-blog-latest .views-field-title h4 {
+    margin: 0;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000322}}
+    .view-t-c-blog-latest .views-field-title h4 a {
+      color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000327}}
+  .view-t-c-blog-latest .views-field-body {
+    font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000329}}
+    .view-t-c-blog-latest .views-field-body p {
+      margin: 0;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000333}}
+  .view-t-c-blog-latest .views-field-view-node {
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000340}}
+.view-t-c-service-notices ul, .view-t-c-scheduled-maintenance ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000349}}
+.view-t-c-service-notices .auto-refresh, .view-t-c-scheduled-maintenance .auto-refresh {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000353}}
+.view-t-c-service-notices .view-content, .view-t-c-scheduled-maintenance .view-content {
+  background-color: #eceeed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000357}}
+  .view-t-c-service-notices .view-content .intranet-message h4, .view-t-c-scheduled-maintenance .view-content .intranet-message h4 {
+    font-family: open_sansregular;
+    font-size: 1.167em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000361}}
+  .view-t-c-service-notices .view-content .intranet-message li.last, .view-t-c-scheduled-maintenance .view-content .intranet-message li.last {
+    font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000364}}
+  .view-t-c-service-notices .view-content .intranet-message:hover, .view-t-c-scheduled-maintenance .view-content .intranet-message:hover {
+    background-color: #bec0c0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000370}}
+.view-t-c-service-notices .more-link a, .view-t-c-scheduled-maintenance .more-link a {
+  color: #ff6634; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000381}}
+.view-t-c-service-notices .views-submit-button input.form-submit {
+  border: thin solid #eceeed;
+  background-color: white;
+  color: #3e3e40;
+  padding: 5px 8px;
+  -webkit-transition: background-color, 0.2s;
+  -moz-transition: background-color, 0.2s;
+  -o-transition: background-color, 0.2s;
+  transition: background-color, 0.2s;
+  padding: 3px 8px;
+  font-size: inherit;
+  margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+  .view-t-c-service-notices .views-submit-button input.form-submit:hover {
+    border: thin solid #ff6634;
+    background-color: #f9fafa;
+    -webkit-transition: background-color, 0.5s;
+    -moz-transition: background-color, 0.5s;
+    -o-transition: background-color, 0.5s;
+    transition: background-color, 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+  .view-t-c-service-notices .views-submit-button input.form-submit:active {
+    background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000390}}
+.view-t-c-service-notices .form-type-select select {
+  padding: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_tc-home\.scss}line{font-family:\0000398}}
+.page-technology-change .view-content .intranet-message {
+  border-bottom: 6px solid white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\000035}}
+.block-top-task-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\0000311}}
+  .block-top-task-wrapper ul a.top-task {
+    -webkit-transition: background, 0.5s;
+    -moz-transition: background, 0.5s;
+    -o-transition: background, 0.5s;
+    transition: background, 0.5s;
+    background-color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\0000316}}
+    .block-top-task-wrapper ul a.top-task:hover {
+      background-color: #ff531b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\0000325}}
+.block-top-task-wrapper.light-orange a.top-task {
+  background-color: #fe9900; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\0000329}}
+  .block-top-task-wrapper.light-orange a.top-task:hover {
+    background-color: #e58a00; }
+
+/*
+div.view-top-tasks
+{
+
+	ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	div.view-content
+	{
+		a.top-task
+		{
+			@include transition(background, 0.5s);
+			background-color: $topTasks;
+
+			&:hover
+			{
+				background-color: darken($topTasks, 5%);
+			}
+		}
+	}
+}
+*/
+/*
+div.view-my-top-tasks
+{
+
+	ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		a.top-task
+		{
+			@include transition(background, 0.5s);
+			background-color: $myTopTasks;
+
+			&:hover
+			{
+				background-color: darken($myTopTasks, 5%);
+			}
+		}
+	}
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\0000392}}
+div.view-my-top-tasks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003101}}
+div.view-my-top-tasks div.view-content a.top-task {
+  -webkit-transition: background, 0.5s;
+  -moz-transition: background, 0.5s;
+  -o-transition: background, 0.5s;
+  transition: background, 0.5s;
+  background-color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003106}}
+  div.view-my-top-tasks div.view-content a.top-task:hover {
+    background-color: #ff531b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003115}}
+.block--views-my-top-tasks-block {
+  border-bottom: 2px solid #eceeed;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003120}}
+  .block--views-my-top-tasks-block div.more-link {
+    text-align: left;
+    margin: 0 0 10px 5px;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003130}}
+.block--views-top-tasks-block {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003137}}
+.top-task-wrapper {
+  float: left;
+  margin: 20px;
+  width: 150px;
+  min-height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003145}}
+  .top-task-wrapper ul.links li {
+    float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003150}}
+  .top-task-wrapper ul.node__links {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003160}}
+li a.top-task {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin: 3px;
+  text-align: center;
+  line-height: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003171}}
+  li a.top-task img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003178}}
+  li a.top-task div.field__item {
+    width: 90px;
+    height: 50px;
+    margin-bottom: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003185}}
+  li a.top-task .top-task-text {
+    color: #FFF;
+    font-size: 0.833em; }
+
+/** Top tasks management page **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003201}}
+div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper {
+  width: 300px;
+  margin: 0 0 30px 0;
+  min-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003207}}
+  div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper a.top-task, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper a.top-task {
+    float: left;
+    margin-top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003212}}
+  div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links {
+    clear: none;
+    width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003215}}
+    div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li {
+      border: thin solid #eceeed;
+      background-color: white;
+      color: #3e3e40;
+      padding: 5px 8px;
+      -webkit-transition: background-color, 0.2s;
+      -moz-transition: background-color, 0.2s;
+      -o-transition: background-color, 0.2s;
+      transition: background-color, 0.2s;
+      padding-right: 5px;
+      margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+      div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li:hover, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li:hover {
+        border: thin solid #ff6634;
+        background-color: #f9fafa;
+        -webkit-transition: background-color, 0.5s;
+        -moz-transition: background-color, 0.5s;
+        -o-transition: background-color, 0.5s;
+        transition: background-color, 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+      div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li:active, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li:active {
+        background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003220}}
+      div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li.last, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li.last {
+        margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_toptasks\.scss}line{font-family:\00003224}}
+      div.view-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li span, div.view-my-top-tasks.view-display-id-page .view-content .item-list ul li.views-row div.top-task-wrapper ul.links--inline.node__links li span {
+        font-family: open_sanslight; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\000034}}
+.section-user article.user-profile {
+  padding: 10px;
+  background-color: #eceeed;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000313}}
+  .section-user article.user-profile .field--name-field-display-name {
+    color: #ff6634;
+    font-size: 2.333em;
+    font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000319}}
+  .section-user article.user-profile .flag-outer-follow-users {
+    font-family: open_sanslight;
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000323}}
+    .section-user article.user-profile .flag-outer-follow-users i {
+      font-family: FontAwesome;
+      font-size: 1.5em;
+      color: #fd9a00;
+      vertical-align: text-bottom; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000334}}
+  .section-user article.user-profile .user-picture {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000339}}
+  .section-user article.user-profile .field, .section-user article.user-profile .flag-outer, .section-user article.user-profile section {
+    padding: 5px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000346}}
+.section-user h1 {
+  display: none; }
+
+/** User status's block - should probably shift this into it's own partial.. **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000355}}
+.block--statuses .fbss-comments-textarea, .block--statuses .statuses-text-main {
+  font-family: open_sanslight;
+  font-size: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000360}}
+.block--statuses input.statuses-submit, .block--statuses input.fbss-comments-submit {
+  margin: 5px 0 0 0;
+  padding: 5px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000364}}
+  .block--statuses input.statuses-submit:after, .block--statuses input.fbss-comments-submit:after {
+    font-family: FontAwesome;
+    content: "\f00d \f045"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000371}}
+.block--statuses .flag-status-comment-like span {
+  white-space: nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000376}}
+.block--statuses .flag-status-like i.fa-thumbs-o-up, .block--statuses .flag-status-comment-like i.fa-thumbs-o-up {
+  font-size: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000381}}
+.block--statuses .flag-status-like:hover i.fa-thumbs-o-up, .block--statuses .flag-status-comment-like:hover i.fa-thumbs-o-up {
+  transform: rotate(-13deg);
+  -webkit-transform: rotate(-13deg);
+  -o-transform: rotate(-13deg);
+  -moz-transform: rotate(-13deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000393}}
+.block--statuses .view-content > table {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\0000396}}
+  .block--statuses .view-content > table tr.odd, .block--statuses .view-content > table tr.even {
+    background-color: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003101}}
+  .block--statuses .view-content > table tr.odd, .block--statuses .view-content > table tr.even {
+    background-color: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003107}}
+  .block--statuses .view-content > table tr.views-row-first td > div {
+    border-top: 3px solid #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003114}}
+  .block--statuses .view-content > table tr td > div {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: thin dotted #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003117}}
+    .block--statuses .view-content > table tr td > div div.statuses-sender-picture img {
+      width: 50px;
+      height: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003127}}
+    .block--statuses .view-content > table tr td > div .statuses-links span a, .block--statuses .view-content > table tr td > div a.statuses-repost {
+      border: thin solid #eceeed;
+      background-color: white;
+      color: #3e3e40;
+      padding: 5px 8px;
+      -webkit-transition: background-color, 0.2s;
+      -moz-transition: background-color, 0.2s;
+      -o-transition: background-color, 0.2s;
+      transition: background-color, 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000363}}
+      .block--statuses .view-content > table tr td > div .statuses-links span a:hover, .block--statuses .view-content > table tr td > div a.statuses-repost:hover {
+        border: thin solid #ff6634;
+        background-color: #f9fafa;
+        -webkit-transition: background-color, 0.5s;
+        -moz-transition: background-color, 0.5s;
+        -o-transition: background-color, 0.5s;
+        transition: background-color, 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000369}}
+      .block--statuses .view-content > table tr td > div .statuses-links span a:active, .block--statuses .view-content > table tr td > div a.statuses-repost:active {
+        background-color: #dfe2e0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003131}}
+    .block--statuses .view-content > table tr td > div .statuses-edit a:before {
+      font-family: FontAwesome;
+      content: "\f044 \00a0"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003135}}
+    .block--statuses .view-content > table tr td > div .statuses-delete a:before {
+      font-family: FontAwesome;
+      content: "\f00d \00a0"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003139}}
+    .block--statuses .view-content > table tr td > div .statuses-repost {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003142}}
+      .block--statuses .view-content > table tr td > div .statuses-repost:before {
+        font-family: FontAwesome;
+        content: "\f045 \00a0"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003151}}
+    .block--statuses .view-content > table tr td > div div.statuses-participants span.statuses-sender a.username {
+      font-size: 1.5em;
+      color: #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003158}}
+    .block--statuses .view-content > table tr td > div span.statuses-content {
+      font-family: open_sanslight;
+      font-size: 1.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003164}}
+    .block--statuses .view-content > table tr td > div div.statuses-details {
+      margin-top: 10px;
+      font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003170}}
+    .block--statuses .view-content > table tr td > div div.statuses-comments {
+      margin-top: 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003177}}
+      .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment.even {
+        background-color: #f1f3f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003182}}
+      .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .fbss-comments-picture img {
+        height: 45px;
+        width: 45px;
+        margin-top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003191}}
+      .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-author a {
+        color: #fd9a00;
+        font-size: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003196}}
+      .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-text {
+        font-family: open_sanslight;
+        font-size: 1.3em;
+        margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003202}}
+      .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-closure {
+        margin-top: 8px;
+        font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003206}}
+        .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-closure ul.fbss-comments-links {
+          list-style: none;
+          padding: 0;
+          margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003211}}
+          .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-closure ul.fbss-comments-links li {
+            display: inline;
+            padding: 0;
+            margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003216}}
+            .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-closure ul.fbss-comments-links li a:hover {
+              text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003220}}
+            .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-closure ul.fbss-comments-links li:before {
+              content: " | "; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/_userprofile\.scss}line{font-family:\00003223}}
+            .block--statuses .view-content > table tr td > div div.statuses-comments .fbss-comments .fbss-comments-comment .content .fbss-comments-closure ul.fbss-comments-links li:first-child:before {
+              content: ""; }
+
+/* No files to import found in views/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_atozmenu\.scss}line{font-family:\000032}}
+nav.block--menu-menu-a-z-menu > ul.menu {
+  float: left;
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_atozmenu\.scss}line{font-family:\000039}}
+  nav.block--menu-menu-a-z-menu > ul.menu li {
+    float: left;
+    display: inline;
+    margin: 0.4em 0.2em 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_atozmenu\.scss}line{font-family:\0000316}}
+    nav.block--menu-menu-a-z-menu > ul.menu li a {
+      -webkit-transition: background-color, 0.8s;
+      -moz-transition: background-color, 0.8s;
+      -o-transition: background-color, 0.8s;
+      transition: background-color, 0.8s;
+      font-family: open_sansbold;
+      margin: 0;
+      padding: 0.4em 1em;
+      background-color: #ECEEED; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_atozmenu\.scss}line{font-family:\0000326}}
+    nav.block--menu-menu-a-z-menu > ul.menu li a:hover, nav.block--menu-menu-a-z-menu > ul.menu li a:focus, nav.block--menu-menu-a-z-menu > ul.menu li a.active {
+      -webkit-transition: background-color, 0.4s;
+      -moz-transition: background-color, 0.4s;
+      -o-transition: background-color, 0.4s;
+      transition: background-color, 0.4s;
+      display: inline;
+      background-color: #ff6634;
+      color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_atozmenu\.scss}line{font-family:\0000337}}
+div.view-glossary-cs {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\000033}}
+.menu-block-wrapper.menu-name-main-menu {
+  border-left: thin solid #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\000036}}
+  .menu-block-wrapper.menu-name-main-menu ul.menu {
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\000039}}
+    .menu-block-wrapper.menu-name-main-menu ul.menu li {
+      list-style-type: none;
+      list-style-image: none;
+      padding: 6px 0;
+      border-bottom: thin dotted #eceeed;
+      border-top: thin dotted white;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\0000317}}
+      .menu-block-wrapper.menu-name-main-menu ul.menu li.active:before {
+        color: #ff6634;
+        content: "\f0da";
+        font-family: FontAwesome;
+        margin-left: -10px;
+        margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\0000326}}
+      .menu-block-wrapper.menu-name-main-menu ul.menu li.active {
+        border-bottom: thin solid #ff6634;
+        border-top: thin solid #ff6634;
+        /*list-style-image: url("../images/menu/menu-active.png");*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\0000328}}
+        .menu-block-wrapper.menu-name-main-menu ul.menu li.active:hover {
+          border-bottom: thin solid #ff6634;
+          border-top: thin solid #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\0000336}}
+        .menu-block-wrapper.menu-name-main-menu ul.menu li.active a {
+          font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\0000341}}
+      .menu-block-wrapper.menu-name-main-menu ul.menu li:hover {
+        border-bottom: thin dotted #ff6634;
+        border-top: thin dotted #ff6634; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_blockmenu\.scss}line{font-family:\0000344}}
+        .menu-block-wrapper.menu-name-main-menu ul.menu li:hover a {
+          color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\000033}}
+div.navbar {
+  background-color: #333333;
+  width: 100%;
+  display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\000038}}
+  div.navbar a {
+    font-size: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000313}}
+div.block.block--superfish.contextual-links-region {
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000317}}
+ul.sf-menu.sf-main-menu > li > ul {
+  margin-top: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000321}}
+.sf-menu {
+  float: left;
+  margin-bottom: 0;
+  padding: 0;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000327}}
+.sf-menu.sf-navbar {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000330}}
+.sf-menu ul {
+  padding-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000334}}
+.sf-menu a,
+.sf-menu span.nolink {
+  border: solid thin #333;
+  color: #f1f1f1;
+  padding: 0.75em 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000340}}
+.sf-menu a.sf-with-ul,
+.sf-menu span.nolink.sf-with-ul {
+  padding-right: 2.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000344}}
+.sf-menu.rtl a.sf-with-ul,
+.sf-menu.rtl span.nolink.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000349}}
+.sf-menu.sf-navbar a,
+.sf-menu.sf-navbar span.nolink {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000352}}
+.sf-menu span.sf-description {
+  color: #f1f1f1;
+  display: block;
+  font-size: 0.833em;
+  line-height: 1.5;
+  margin: 5px 0 0 5px;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000360}}
+.sf-menu.rtl span.sf-description {
+  margin: 5px 5px 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000366}}
+.sf-menu li,
+.sf-menu li li,
+.sf-menu li li li,
+.sf-menu.sf-navbar {
+  background: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000375}}
+.sf-menu li:hover,
+.sf-menu li.sfHover,
+.sf-menu a:focus,
+.sf-menu a:hover,
+.sf-menu a:active,
+.sf-menu span.nolink:hover,
+.sf-menu.sf-navbar li li {
+  background: #dc5300;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000379}}
+.sf-menu.sf-navbar li ul {
+  background-color: #dc5300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000382}}
+.sf-menu.sf-navbar li ul li ul {
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000385}}
+div.sf-accordion-toggle a {
+  background: #333333;
+  border: 1px outset #000000;
+  color: #f1f1f1;
+  padding: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000392}}
+div.sf-accordion-toggle a.sf-expanded,
+.sf-menu.sf-accordion li.sf-expanded {
+  background-color: #dc5300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\0000397}}
+div.sf-accordion-toggle a.sf-expanded,
+.sf-menu.sf-accordion li.sf-expanded > a,
+.sf-menu.sf-accordion li.sf-expanded > span.nolink {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003100}}
+.sf-menu.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003108}}
+.sf-menu.sf-accordion li li a,
+.sf-menu.sf-accordion li li span.nolink {
+  padding-left: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003112}}
+.sf-menu.sf-accordion li li li a,
+.sf-menu.sf-accordion li li li span.nolink {
+  padding-left: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003116}}
+.sf-menu.sf-accordion li li li li a,
+.sf-menu.sf-accordion li li li li span.nolink {
+  padding-left: 4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003120}}
+.sf-menu.sf-accordion li li li li li a,
+.sf-menu.sf-accordion li li li li li span.nolink {
+  padding-left: 5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003124}}
+.sf-menu.rtl.sf-accordion li li a,
+.sf-menu.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003129}}
+.sf-menu.rtl.sf-accordion li li li a,
+.sf-menu.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003134}}
+.sf-menu.rtl.sf-accordion li li li li a,
+.sf-menu.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003139}}
+.sf-menu.rtl.sf-accordion li li li li li a,
+.sf-menu.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003144}}
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003149}}
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent,
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper span.nolink.menuparent {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003152}}
+.sf-menu ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003156}}
+.sf-menu.sf-style-space.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003162}}
+.toggleMenu {
+  display: none;
+  background: #666;
+  padding: 10px 15px;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003168}}
+.mobileNav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  *zoom: 1;
+  background: #3e3e40; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003169}}
+  .mobileNav:before, .mobileNav :after {
+    content: " ";
+    display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003173}}
+  .mobileNav:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003183}}
+  .mobileNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 9em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003190}}
+  .mobileNav a {
+    padding: 10px 15px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003195}}
+  .mobileNav li {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003198}}
+    .mobileNav li li {
+      border-top: 1px solid #a4a4a6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003199}}
+      .mobileNav li li:first-child {
+        border-top: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003206}}
+      .mobileNav li li.hover ul {
+        left: 100%;
+        top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003212}}
+      .mobileNav li li li {
+        border-top: 1px solid #bdbdc0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003214}}
+        .mobileNav li li li a {
+          background: #8a8a8d;
+          z-index: 200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003220}}
+      .mobileNav li li a {
+        display: block;
+        background: #707074;
+        position: relative;
+        z-index: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003228}}
+    .mobileNav li ul {
+      position: absolute;
+      left: -9999px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003234}}
+  .mobileNav > li {
+    float: left;
+    border-top: 1px solid white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003235}}
+    .mobileNav > li:first-child {
+      border-top: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003242}}
+    .mobileNav > li > .menuparent {
+      background: url("../images/menu/downArrow.png") no-repeat right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003246}}
+    .mobileNav > li > a {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003250}}
+    .mobileNav > li.hover > ul {
+      left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003257}}
+.l-region--topmenu > div#block-superfish-1 > div.block__content {
+  border: 1px solid #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003261}}
+.navbar .active {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003265}}
+.mobileNav > li {
+  float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003268}}
+.mobileNav > li > .menuparent {
+  background-position: 95% 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003271}}
+.mobileNav li li .menuparent {
+  background-image: url("../images/menu/downArrow.png");
+  background-repeat: no-repeat;
+  background-position: 95% 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003276}}
+.mobileNav ul {
+  display: block;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_mainmenu\.scss}line{font-family:\00003280}}
+.mobileNav > li.hover > ul, .mobileNav li li.hover ul {
+  position: static; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_spotlightmenu\.scss}line{font-family:\000036}}
+.menu-name-menu-technology-change-spotlight ul.menu,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu,
+nav.block--menu-menu-spotlight-menu > ul.menu,
+nav.block--menu-menu-marketplace-menu > ul.menu,
+.menu-name-menu-2020-spotlight ul.menu {
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_spotlightmenu\.scss}line{font-family:\0000312}}
+.menu-name-menu-technology-change-spotlight,
+.menu-name-menu-2020-spotlight {
+  margin-top: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_spotlightmenu\.scss}line{font-family:\0000321}}
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf {
+  list-style: none;
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_spotlightmenu\.scss}line{font-family:\0000332}}
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf > a,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf > a,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf > a,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf > a,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf > a {
+  font-family: open_sansbold;
+  font-size: 1.167em;
+  padding: 8px 0px 8px 40px;
+  color: #3e3e40;
+  background-color: #eceeed;
+  width: 100%;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/menus\/_spotlightmenu\.scss}line{font-family:\0000353}}
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf > a:hover,
+.menu-name-menu-technology-change-spotlight ul.menu > li.leaf > a:focus,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf > a:hover,
+nav.block--menu-menu-profile-spotlight-menu > ul.menu > li.leaf > a:focus,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf > a:hover,
+nav.block--menu-menu-spotlight-menu > ul.menu > li.leaf > a:focus,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf > a:hover,
+nav.block--menu-menu-marketplace-menu > ul.menu > li.leaf > a:focus,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf > a:focus,
+.menu-name-menu-2020-spotlight ul.menu > li.leaf > a:hover {
+  background-color: #dfe2e0; }
+
+/* No files to import found in regions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000327}}
+body {
+  background: white;
+  color: #3E3E40; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000332}}
+a {
+  color: #3e3e40; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000336}}
+article .field a, .forum-post-panel-main a {
+  color: #ff6634; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000340}}
+.site-logo img {
+  padding: 6px 0 3px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000345}}
+.hide {
+  display: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000348}}
+.show {
+  display: block !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000351}}
+.invisible {
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000354}}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000361}}
+.hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000366}}
+.passive-hidden {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000370}}
+.cursor-pointer {
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000375}}
+.block {
+  clear: both;
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000383}}
+.breadcrumb {
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000387}}
+  .breadcrumb a.active {
+    display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000394}}
+div.node__content .field--name-body a:hover {
+  text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\0000399}}
+article.node--article--full div.node__content .field--name-field-image {
+  float: left;
+  border: 2px solid #eceeed;
+  margin: 0px 10px 10px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003106}}
+.field--type-taxonomy-term-reference, .field--type-link-field {
+  clear: both;
+  overflow: auto;
+  margin: 10px 0 10px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003113}}
+ul.node__links {
+  margin: 10px 0 10px 0;
+  clear: both;
+  overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003119}}
+  ul.node__links .print_html, ul.node__links .print_mail, ul.node__links .print_pdf {
+    margin-left: 0; }
+
+/** Hide statistics counter reads **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003127}}
+li.statistics_counter {
+  display: none; }
+
+/** Can't find what you're looking for button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003132}}
+a.feedback-block {
+  color: #ffffff;
+  padding: 5px 8px;
+  background-color: #ff6634;
+  border: thin solid #fd9a00;
+  -webkit-transition: background-color, 0.5s;
+  -moz-transition: background-color, 0.5s;
+  -o-transition: background-color, 0.5s;
+  transition: background-color, 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  font-family: open_sanslight; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000390}}
+  a.feedback-block:hover {
+    background-color: #ff470b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/base\/_mixins\.scss}line{font-family:\0000393}}
+  a.feedback-block:active {
+    background-color: #cd3200; }
+
+/** Content type icons on avatar pic **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003143}}
+ul.dropdown-menu.dropdown-alerts div.views-field-picture div.field-content, div.view-alerts-history div.views-field-picture div.field-content {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003146}}
+  ul.dropdown-menu.dropdown-alerts div.views-field-picture div.field-content .fa, div.view-alerts-history div.views-field-picture div.field-content .fa {
+    position: absolute;
+    bottom: -3px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #fd9a00;
+    min-width: 22px;
+    left: -2px;
+    text-align: center;
+    padding: 4px 0; }
+
+/* Alerts */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003163}}
+.intranet-message {
+  padding: 9px;
+  background-position: 8px 12px;
+  background-repeat: no-repeat;
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003170}}
+  .intranet-message ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 0 0 0 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003175}}
+    .intranet-message ul li {
+      margin-bottom: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003178}}
+      .intranet-message ul li.last {
+        margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003183}}
+  .intranet-message h4 {
+    margin: 0;
+    padding: 0; }
+
+/* Flags throbber Override */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003189}}
+.flag-waiting .flag-throbber {
+  background: url("../images/ajax-loader.gif") no-repeat !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.styles\.scss}line{font-family:\00003199}}
+.full-column .block.block--views.block--views-landing-page-icons-block {
+  border-top: 2px solid #eceeed;
+  padding-top: 10px;
+  overflow: hidden;
+  margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\000031}}
+.l-region--topsearch {
+  min-width: 960px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\000034}}
+  .l-region--topsearch div.search-bar {
+    font-size: 28px;
+    padding: 10px 0;
+    overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\000039}}
+    .l-region--topsearch div.search-bar #searchTagline {
+      display: block;
+      float: left;
+      padding-top: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\0000315}}
+    .l-region--topsearch div.search-bar div.search-form {
+      float: right;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\0000319}}
+      .l-region--topsearch div.search-bar div.search-form input[type='submit'] {
+        margin: 2px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_search\.largeScreen\.scss}line{font-family:\0000324}}
+      .l-region--topsearch div.search-bar div.search-form input[type="text"] {
+        width: 280px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/components\/partials\/_landingpage\.largeScreen\.scss}line{font-family:\000033}}
+div.view-landing-page-icons ul li {
+  margin-right: 5px;
+  width: 32.63158%;
+  clear: right;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/intranet\.no-query\.scss}line{font-family:\0000310}}
+.l-region--topsearch div.search-bar div.search-form {
+  margin-top: -4px; }

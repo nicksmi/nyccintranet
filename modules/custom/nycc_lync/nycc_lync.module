@@ -1,0 +1,36 @@
+<?php
+/*
+ * @file
+ * Adds a block that welcomes users when they log in.
+ */
+
+/*
+ * Implements hook_theme().
+ */
+ 
+function nycc_lync_init() {
+  drupal_add_js(drupal_get_path('module', 'nycc_lync') .'/js/showlync.js', 'file');
+  
+  drupal_add_css(drupal_get_path('module', 'nycc_lync') . '/css/lync.css');
+}
+
+function nycc_lync_page_build(&$page)
+{
+    $page['page_bottom']['my-markup'] = array('#markup' => '<div id="user"/>');
+	$page['page_bottom']['lync'] = array('#markup' => '<object id="application/x-sharepoint-uc" type="application/x-sharepoint-uc" width="0" height="0" style="visibility: hidden;"></object>', '#weight' => 25,);
+}
+ 
+function nycc_lync_preprocess_username(&$vars) {
+  $account = $vars['account'];
+  $usrname = $account->name;
+  $classes = $vars['attributes_array']['class'];
+  $vars['attributes_array'] = array('id' =>'lyncspan', 'onmouseover' => "showLyncPresencePopup('$usrname', this);", 'onmouseout' => 'hideLyncPresencePopup();');
+  $vars['attributes_array']['class'] = $classes;
+  
+}
+
+
+
+
+
+

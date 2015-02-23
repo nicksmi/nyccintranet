@@ -1,0 +1,16 @@
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+@import "../../variables/**/*";
+
+$grids: 8 4;
+
+@import "../global/global";
+
+@import "home.smallScreen";
+
+@media screen and (min-width: 960px){
+  @import "home.largeScreen";
+}
+

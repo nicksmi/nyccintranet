@@ -1,0 +1,41 @@
+body{
+  min-width: 28.5em;
+  padding:0 5px;
+}
+
+.l-region--topbar{
+  float:right;
+
+  .l-container{
+    .view-profile{
+      display:none;
+    }
+
+    div.view.view-alerts{
+      float:right;
+    }
+
+    a.alert-link{
+      height:32px;
+    }
+  }
+}
+
+.l-page {
+  background-color: $siteBackgroundColour;
+  padding: 10px 0 100px 0;
+}
+
+.l-container {
+  width: 100%;
+}
+
+.l-footer 
+{
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  border-top: 2px solid $border;
+  margin-bottom:10px;
+}

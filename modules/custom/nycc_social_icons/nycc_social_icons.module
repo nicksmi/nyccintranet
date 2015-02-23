@@ -1,0 +1,149 @@
+<?php
+/*
+ *	DD
+ *	Allows admins a little bit of control over the social media icons in the footer
+ *	They can alter the href, turn it off & on, and change its icon
+*/
+
+/*
+	Configure the available icons here and provide some default values
+*/
+function nycc_social_icons_network_list(){
+	$networks = &drupal_static(__FUNCTION__);
+
+	if(!isset($networks)){
+		$networks[] = array('name' => 'Facebook', 'default_value' => 'http://www.facebook.com', 'icon' => 'fa-facebook-square');
+		$networks[] = array('name' => 'Twitter', 'default_value' => 'http://www.twitter.com', 'icon' => 'fa-twitter-square');
+		$networks[] = array('name' => 'Youtube', 'default_value' => 'http://www.youtube.com', 'icon' => 'fa-youtube-square');
+		$networks[] = array('name' => 'Google+', 'default_value' => 'http://plus.google.com', 'icon' => 'fa-google-plus-square');
+		$networks[] = array('name' => 'Flickr', 'default_value' => 'http://www.flickr.com', 'icon' => 'fa-flickr');
+	}
+	return $networks;
+}
+
+/*
+	Creates the social footer block which we will catch and inject into
+*/
+function nycc_social_icons_block_info() {
+	$blocks = array();
+	$blocks['nycc_social_footer'] = array(
+		'info' => t('nycc social footer'),
+		'cache' => DRUPAL_CACHE_GLOBAL,
+	);
+
+	return $blocks;
+}
+
+/*
+	Looks for the nycc_social_footer block and then injects the built footer into it
+*/
+function nycc_social_icons_block_view($delta = ''){
+	switch($delta){
+		case 'nycc_social_footer':
+			$block['content'] = variable_get('nycc_social_footer', '<!-- NYCC_SOCIAL_FOOTER NOT SET -->');
+		break;
+	}
+
+	return $block;
+}
+
+/*
+	Generate the configuration page for the module
+*/
+function nycc_social_icons_admin(){
+
+	$networks = nycc_social_icons_network_list();
+	$form = array();
+	$options = array(
+		true => 'Enabled',
+		false => 'Disabled'
+	);
+	foreach($networks as $n){
+		$form[$n['name'] . '_fieldset'] = array(
+			'#type' => 'fieldset',
+			'#collapsible' => true,
+			'#collapsed' => true,
+			'#title' => $n['name'],
+		);
+		$form[$n['name'] . '_fieldset']['nycc_social_' . $n['name'] . '_link'] = array(
+			'#type' => 'textfield',
+			'#title' => 'Where should the ' . $n['name'] . ' icon link to',
+			'#default_value' => variable_get('nycc_social_' . $n['name'] . '_link', $n['default_value']),
+			'#required' => true,
+		);
+		$form[$n['name'] . '_fieldset']['nycc_social_' . $n['name'] . '_icon'] = array(
+			'#type' => 'textfield',
+			'#title' => 'Specify an icon class',
+			'#default_value' => variable_get('nycc_social_' . $n['name'] . '_icon', $n['icon']),
+			'#required' => true,
+		);
+		$form[$n['name'] . '_fieldset']['nycc_social_' . $n['name'] . '_enabled'] = array(
+			'#type' => 'radios',
+			'#title' => 'Enable or disable this icon',
+			'#options' => $options,
+			'#default_value' => variable_get('nycc_social_' . $n['name'] . '_enabled', true),
+		);
+	}
+
+	$form['#submit'][] = 'nycc_social_icons_build_footer';
+	return system_settings_form($form);
+}
+
+/*
+	Intergrate the config page with menus
+*/
+function nycc_social_icons_menu(){
+	$items = array();
+	$items['admin/config/nycc/social-icons'] = array(
+		'title' => 'NYCC Social icons',
+		'description' => 'Configure the social networking icons in the footer',
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('nycc_social_icons_admin'),
+		'access arguments' => array('Administer social networking icons'),
+	);
+
+	return $items;
+}
+
+/*
+	Uses hook_permission to provide permissions for who can administer the module
+*/
+function nycc_social_icons_permission() {
+  return array(
+    'Administer social networking icons' => array(
+      'title' => t('Administer social networking icons'),
+      'description' => t('Configure the social networking icons in the footer'),
+    ),
+  );
+}
+
+/*
+	Called upon successful page submission, builds the footer from the passed in
+	form and then saves it into a variable.
+*/
+function nycc_social_icons_build_footer($form){
+	$networks = drupal_static('nycc_social_icons_network_list');
+
+	$t = '';
+	foreach($networks as $n){
+		if($form[$n['name'] . '_fieldset']['nycc_social_' . $n['name'] . '_enabled']['#value'] == 1){
+			$href = $form[$n['name'] . '_fieldset']['nycc_social_' . $n['name'] . '_link']['#value'];
+			$icon = $form[$n['name'] . '_fieldset']['nycc_social_' . $n['name'] . '_icon']['#value'];
+
+			$t = $t .= '<a href="';
+			$t = $t .= $href;
+			$t = $t .= '" target="_blank"><i class="fa ' . $icon . '"></i></a>';
+		}
+	}
+
+	if($t == ''){
+		variable_set('nycc_social_footer', '');
+		return;
+	}
+	
+	$return = '<table><tbody><tr class="social-footer-row"><td>';
+	$return = $return .= $t;
+	$return = $return .= '</td></tr></tbody></table';
+	variable_set('nycc_social_footer', $return);
+
+}

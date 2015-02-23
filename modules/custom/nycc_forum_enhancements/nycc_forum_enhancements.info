@@ -1,0 +1,11 @@
+name = NYCC Forum enhancements
+core = 7.x
+description = Enforces Group Audience on forum topics linked to an updated forum taxonomy and contains a bug fixed version of og_forum
+package = 'NYCC'
+
+dependencies[] = og
+dependencies[] = og_access
+dependencies[] = forum
+
+files[] = nycc_forum_enhancements.module
+files[] = nycc_og_forum.inc

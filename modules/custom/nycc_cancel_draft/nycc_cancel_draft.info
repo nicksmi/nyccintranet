@@ -1,0 +1,8 @@
+name = nycc_cancel_draft
+description = Module to add a cancel button to the drafts of content pages.
+core = 7.x
+
+package = 'NYCC'
+project = 'Cancel Drafts Button'
+
+files[] = nycc_cancel_draft.module

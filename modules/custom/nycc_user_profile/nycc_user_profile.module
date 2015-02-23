@@ -1,0 +1,70 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function nycc_user_profile_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
+  	global $user;
+	$account = user_load($user->uid);
+
+	$ldapUser = false;
+	$editor = false;
+
+	if(!empty($form['#user']->ldap_user_puid)){
+		$ldapUser = true;
+	}
+
+	if(in_array('administrator', $user->roles))
+	{
+		$editor = true;
+	}
+
+	if(in_array('service desk', $user->roles))
+	{
+		$editor = true;
+	}
+
+	//Disabled for everyone
+	$form['account']['name']['#disabled'] = TRUE;
+	unset($form['picture']);
+	$form['account']['mail']['#disabled'] = TRUE;
+	$form['field_display_name']['#disabled']=TRUE;
+	$form['field_employee_number']['#disabled']=TRUE;
+	$form['field_job_title']['#disabled']=TRUE;
+	$form['field_service_unit']['#disabled']=TRUE;
+	$form['field_location']['#disabled']=TRUE;
+	$form['field_telephone']['#disabled']=TRUE;
+	$form['field_site']['#disabled']=TRUE;
+
+
+	//Enable some fields for non ad users
+	if(!$ldapUser){
+  		$form['account']['mail']['#disabled'] = FALSE;
+	}
+
+	//Admin or service_desk
+	if($editor && isset($form['account'])) {
+		//non AD user
+		if(!$ldapUser){
+			$form['field_display_name']['#disabled']=FALSE;
+			$form['field_employee_number']['#disabled']=FALSE;
+			$form['field_job_title']['#disabled']=FALSE;
+			$form['field_service_unit']['#disabled']=FALSE;
+			$form['field_location']['#disabled']=FALSE;
+			$form['field_telephone']['#disabled']=FALSE;
+			$form['field_site']['#disabled']=FALSE;
+	  	}
+	}
+}
+
+/*
+* This overrides a apparent bug in LDAP authentication which removes access
+* to the password reset screen. We need to turn it back on again to make sure
+* externals can reset their passwords.
+*/
+function nycc_user_profile_menu_alter(&$items) {
+  	$items['user/password']['access callback'] = TRUE;
+}
+
+
+?>

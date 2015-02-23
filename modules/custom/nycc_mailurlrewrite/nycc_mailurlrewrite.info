@@ -1,0 +1,12 @@
+name = Mail URL rewrite
+core = 7.x
+description = rewrites the URL of the one-time login email
+
+package = 'NYCC'
+project = 'mail url rewrite'
+
+files[] = nycc_mailurlrewrite.module
+
+configure = admin/config/nycc/mailurlrewrite
+
+dependencies[] = nycc

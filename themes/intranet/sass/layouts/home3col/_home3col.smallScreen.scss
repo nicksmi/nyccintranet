@@ -1,0 +1,21 @@
+.left-col
+{
+  @include grid-span(3, 1);
+  clear:both;
+}
+.center-col
+{
+  @include grid-span(3, 1);
+  clear:both;
+}
+.right-col
+{
+  @include grid-span(3, 1);
+  clear:both;
+}
+
+.span-3col-content{
+	width:100%;
+	clear:both;
+	overflow:hidden;
+}
