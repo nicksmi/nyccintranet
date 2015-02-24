@@ -20,9 +20,6 @@ projects[Forum Alerts Fix][subdir] = "custom"
 projects[Terms and conditions][version] = "" ; TODO add version
 projects[Terms and conditions][subdir] = "custom"
 
-projects[hello world][version] = "" ; TODO add version
-projects[hello world][subdir] = "custom"
-
 projects[lync intergration][version] = "" ; TODO add version
 projects[lync intergration][subdir] = "custom"
 
@@ -34,9 +31,6 @@ projects[nycc][subdir] = "custom"
 
 projects[nycc_content_validation][version] = "" ; TODO add version
 projects[nycc_content_validation][subdir] = "custom"
-
-projects[nycc_epic_import][version] = "" ; TODO add version
-projects[nycc_epic_import][subdir] = "custom"
 
 projects[nycc_forms][version] = "" ; TODO add version
 projects[nycc_forms][subdir] = "custom"
