@@ -1,9 +1,0 @@
-name = NYCC Group import
-core = 7.x
-description = Custom NYCC organic groups
-package = 'NYCC'
-
-dependencies[] = nycc
-
-files[] = nycc_group_import.module
-files[] = nycc_group_import.install

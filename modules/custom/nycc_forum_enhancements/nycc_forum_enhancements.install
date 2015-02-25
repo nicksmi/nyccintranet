@@ -1,8 +1,0 @@
-<?php
-
-function nycc_forum_enhancements_install() {
-  db_update('system')
-    ->fields(array('weight' => -10))
-    ->condition('name', 'nycc_forum_enhancements', '=')
-    ->execute();
-}

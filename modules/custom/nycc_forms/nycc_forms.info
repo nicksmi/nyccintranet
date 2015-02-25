@@ -1,6 +1,0 @@
-name = NYCC Forms
-core = 7.x
-description = Custom NYCC forms
-package = 'NYCC'
-
-files[] = nycc_forms.module
