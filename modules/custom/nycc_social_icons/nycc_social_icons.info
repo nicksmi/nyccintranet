@@ -1,9 +1,0 @@
-name = NYCC Social icons
-core = 7.x
-description = Control the social media icons in the footer block
-package = 'NYCC'
-
-files[] = nycc_social_icons.module
-stylesheets[all][] = nycc-social-icons.css
-configure = admin/config/nycc/social-icons
-dependencies[] = nycc

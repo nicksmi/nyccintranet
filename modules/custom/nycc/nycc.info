@@ -1,6 +1,0 @@
-name = NYCC Base
-core = 7.x
-description = Provides a base module for NYCC modules to streamline intergration with menus and configuration pages
-package = 'NYCC'
-
-files[] = nycc.module

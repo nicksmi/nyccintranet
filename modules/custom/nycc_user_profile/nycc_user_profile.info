@@ -1,6 +1,0 @@
-name = NYCC User profile lockdown
-core = 7.x
-description = stops users from editing all fields in user profile
-package = 'NYCC'
-
-files[] = nycc_user_profile.module

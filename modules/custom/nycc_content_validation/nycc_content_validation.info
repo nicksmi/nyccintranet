@@ -1,8 +1,0 @@
-name = NYCC Content validation
-core = 7.x
-description = Enables NYCC specific validation for content creation
-package = 'NYCC'
-
-files[] = nycc_content_validation.module
-configure = admin/config/nycc/content-validation
-dependencies[] = nycc
