@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYCC Social feature.
+ */
+
+include_once 'nycc_social.features.inc';

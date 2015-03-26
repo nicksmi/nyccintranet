@@ -1,0 +1,26 @@
+.user {
+    width: 250px;
+    height: 40px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.available {
+    border-color: green;
+}
+
+.offline {
+    border-color: gray;
+}
+
+.away {
+    border-color: yellow;
+}
+        
+.busy, .inacall {
+    border-color: red;
+}
+
+.donotdisturb {
+    border-color: crimson;
+}

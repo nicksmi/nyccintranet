@@ -1,0 +1,7 @@
+
+name = NYCC
+description = NYCC Forum Theme based on Naked.
+version = 2.x
+base style = naked
+core = "7.x"
+

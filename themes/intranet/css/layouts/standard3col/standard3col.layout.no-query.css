@@ -1,0 +1,41 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\000031}}
+body {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\000035}}
+.l-region--topbar {
+  width: 100%;
+  min-width: 960px;
+  float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\0000311}}
+  .l-region--topbar .l-container .view-profile {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\0000317}}
+.l-container {
+  width: 960px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/standard3col\/_standard3col\.layout\.largeScreen\.scss}line{font-family:\000037}}
+.standard-left-col {
+  width: 23.68421%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/standard3col\/_standard3col\.layout\.largeScreen\.scss}line{font-family:\0000311}}
+.l-content {
+  width: 47.36842%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 26.31579%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/standard3col\/_standard3col\.layout\.largeScreen\.scss}line{font-family:\0000315}}
+.standard-right-col {
+  width: 23.68421%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }

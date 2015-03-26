@@ -1,0 +1,41 @@
+/** News overview pages.. corporate news **/
+div.view-corporate-news, div.view-directorate-news{
+	div.views-row{
+		&:first-child{
+			margin-top:0;
+			border-top:none;
+		}
+
+		margin-top:15px;
+		border-top: thin solid $border;
+
+		article.node--article.node--article--teaser{
+			header{
+				h2{
+					@include reset();
+					a{
+						color:$mainColourLevel1;
+					}
+				}
+			}
+			
+			footer.node__submitted{
+				p.submitted{
+					@include reset();
+					font-family:open_sanslight;
+				}
+			}
+			
+			div.field--name-field-image{
+				float:left;
+				margin-right: 5px;
+			}
+
+			ul.links--inline{
+				li{
+					@include button-muted();
+				}
+			}
+		}
+	}
+}

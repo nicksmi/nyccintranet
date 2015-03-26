@@ -1,0 +1,12 @@
+name = NYCC Lync integration
+core = 7.x
+description = connects to lync to get users status requires the LDAP module
+
+
+package = 'NYCC'
+project = 'lync intergration'
+
+files[] = nycc_lync.module
+files[] = css/lync.css
+
+scripts[] = js/showlync.js

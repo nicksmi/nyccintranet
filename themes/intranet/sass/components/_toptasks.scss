@@ -1,0 +1,235 @@
+// Styles for the top task block
+
+.block-top-task-wrapper{
+	ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		a.top-task
+		{
+			@include transition(background, 0.5s);
+			background-color: $myTopTasks;
+
+			&:hover
+			{
+				background-color: darken($myTopTasks, 5%);
+			}
+		}
+
+	}
+
+	&.light-orange{
+		a.top-task
+		{
+			background-color: $topTasks;
+
+			&:hover
+			{
+				background-color: darken($topTasks, 5%);
+			}
+		}
+	}
+}
+
+/*
+div.view-top-tasks
+{
+
+	ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	div.view-content
+	{
+		a.top-task
+		{
+			@include transition(background, 0.5s);
+			background-color: $topTasks;
+
+			&:hover
+			{
+				background-color: darken($topTasks, 5%);
+			}
+		}
+	}
+}
+*/
+
+/*
+div.view-my-top-tasks
+{
+
+	ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		a.top-task
+		{
+			@include transition(background, 0.5s);
+			background-color: $myTopTasks;
+
+			&:hover
+			{
+				background-color: darken($myTopTasks, 5%);
+			}
+		}
+	}
+}
+*/
+
+
+div.view-my-top-tasks
+{
+
+	ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	div.view-content
+	{
+		a.top-task
+		{
+			@include transition(background, 0.5s);
+			background-color: $myTopTasks;
+
+			&:hover
+			{
+				background-color: darken($myTopTasks, 5%);
+			}
+		}
+	}
+}
+
+
+.block--views-my-top-tasks-block
+{
+	border-bottom: 2px solid #eceeed;
+	clear:both;
+
+	div.more-link
+	{
+		text-align: left;
+		margin: 0 0 10px 5px;
+		clear:both;
+	}
+
+
+}
+
+.block--views-top-tasks-block
+{
+	clear:both;
+}
+
+
+
+.top-task-wrapper
+{
+	float:left;
+	margin: 20px;
+	width: 150px;
+	min-height: 200px;
+
+
+	ul.links li
+	{
+		float: none;
+	}
+
+	ul.node__links
+	{
+		clear:both;
+	}
+
+}
+
+
+
+li{
+	a.top-task
+	{
+
+		display:block;
+		float:left;
+		width:90px;
+		height:90px;
+		margin: 3px;
+		text-align: center;
+		line-height: 10px;
+
+		img
+		{
+			display: block;
+			margin: 0 auto;
+			margin-top: 12px;
+		}
+
+		div.field__item
+		{
+			width: 90px;
+			height: 50px;
+			margin-bottom: 2px;
+		}
+
+		.top-task-text
+		{
+			color: #FFF;
+			font-size: 10px;
+		}
+
+	}
+
+}
+
+/** Top tasks management page **/
+div.view-top-tasks.view-display-id-page, div.view-my-top-tasks.view-display-id-page{
+	.view-content .item-list{
+
+		ul{
+
+			li.views-row{
+				div.top-task-wrapper{
+					width:300px;
+					margin:0 0 30px 0;
+					min-height:0;
+
+
+					a.top-task{
+						float:left;
+						margin-top:3px;
+					}
+
+					ul.links--inline.node__links{
+						clear:none;
+						width:200px;
+						li {
+							@include button-muted();
+							padding-right:5px;
+							margin-bottom:5px;
+
+							&.last{
+								margin-bottom:0;
+							}
+
+							span{
+								font-family:open_sanslight;
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+	}
+}

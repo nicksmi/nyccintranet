@@ -1,0 +1,29 @@
+.l-region--topsearch {
+  min-width: 960px;
+
+  div.search-bar {
+    font-size: 28px;
+    padding: 10px 0;
+    overflow: auto;
+
+    #searchTagline {
+      display: block;
+      float: left;
+      padding-top: 3px;
+    }
+
+    div.search-form {
+      float: right;
+      padding: 0;
+ 	  
+ 	  input[type='submit'] {
+       	margin:2px 0 0 0;
+      }
+
+
+      input[type="text"] {
+        width: 280px;
+      }
+    }
+  }
+}

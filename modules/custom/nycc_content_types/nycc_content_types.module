@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYCC Content types feature.
+ */
+
+include_once 'nycc_content_types.features.inc';

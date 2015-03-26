@@ -1,0 +1,54 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\000031}}
+body {
+  min-width: 28.5em;
+  padding: 0 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\000036}}
+.l-region--topbar {
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\0000310}}
+  .l-region--topbar .l-container .view-profile {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\0000314}}
+  .l-region--topbar .l-container div.view.view-alerts {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\0000318}}
+  .l-region--topbar .l-container a.alert-link {
+    height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\0000324}}
+.l-page {
+  background-color: white;
+  padding: 10px 0 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\0000329}}
+.l-container {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.smallScreen\.scss}line{font-family:\0000334}}
+.l-footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  border-top: 2px solid #eceeed;
+  margin-bottom: 10px; }
+
+@media screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\000031}}
+  body {
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\000035}}
+  .l-region--topbar {
+    width: 100%;
+    min-width: 960px;
+    float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\0000311}}
+    .l-region--topbar .l-container .view-profile {
+      display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/sites\/all\/themes\/intranet\/sass\/layouts\/global\/_global\.largeScreen\.scss}line{font-family:\0000317}}
+  .l-container {
+    width: 960px;
+    margin: 0 auto; } }

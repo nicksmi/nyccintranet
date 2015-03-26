@@ -1,0 +1,163 @@
+; Packaging information for nycc_intranet
+name = "NYCC Intranet"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = module_filter
+; Chaos tool suite
+dependencies[] = ctools
+; Context
+dependencies[] = context
+dependencies[] = context_entity_field
+dependencies[] = context_flag
+dependencies[] = context_layouts
+dependencies[] = context_menu_block
+dependencies[] = context_omega
+dependencies[] = context_ui
+; Core
+dependencies[] = block
+dependencies[] = blog
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = poll
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = statistics
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = trigger
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = calendar
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Development
+dependencies[] = profiler_builder
+; Event Calendar
+dependencies[] = event_calendar
+; Fields
+dependencies[] = entityreference
+dependencies[] = inline_entity_form
+dependencies[] = link
+dependencies[] = multiupload_filefield_widget
+dependencies[] = multiupload_imagefield_widget
+; Flags
+dependencies[] = flag
+; Form Elements
+dependencies[] = hierarchical_select
+dependencies[] = hs_taxonomy
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+; Message
+dependencies[] = message
+dependencies[] = message_ui
+; NYCC
+dependencies[] = nycc
+dependencies[] = nycc_lync
+; Organic groups
+dependencies[] = og
+dependencies[] = og_access
+dependencies[] = og_context
+dependencies[] = og_extras
+dependencies[] = og_register
+dependencies[] = og_ui
+; Other
+dependencies[] = entity
+dependencies[] = entity_dependency
+dependencies[] = entity_token
+dependencies[] = entity_view_mode
+dependencies[] = login_destination
+dependencies[] = menu_block
+dependencies[] = menu_icons
+dependencies[] = pathauto
+dependencies[] = pathrules
+dependencies[] = poll_blocks
+dependencies[] = r4032login
+dependencies[] = realname
+dependencies[] = redirect
+dependencies[] = reg_with_pic
+dependencies[] = scheduler
+dependencies[] = site_map
+dependencies[] = strongarm
+dependencies[] = tabtamer
+dependencies[] = taxonomy_entity_index
+dependencies[] = taxonomy_path
+dependencies[] = tipsy
+dependencies[] = token
+dependencies[] = token_tweaks
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = rules_conditional
+dependencies[] = rules_scheduler
+dependencies[] = views_rules
+; Search Toolkit
+dependencies[] = apachesolr
+dependencies[] = apachesolr_access
+dependencies[] = apachesolr_autocomplete
+dependencies[] = apachesolr_search
+dependencies[] = apachesolr_search_blocks
+dependencies[] = apachesolr_user
+dependencies[] = current_search
+dependencies[] = facetapi
+; Statuses
+dependencies[] = fbss_comments
+dependencies[] = fbss_comments_rules
+dependencies[] = fbss_rules
+dependencies[] = statuses
+; Taxonomy
+dependencies[] = term_merge
+; Theme Tools
+dependencies[] = block_machine_name
+; User interface
+dependencies[] = jquery_update
+dependencies[] = prevent_js_alerts
+dependencies[] = superfish
+dependencies[] = wysiwyg
+; Variable
+dependencies[] = variable
+dependencies[] = variable_realm
+; Views
+dependencies[] = entityreference_filter
+dependencies[] = views
+dependencies[] = views_autorefresh
+dependencies[] = views_bulk_operations
+dependencies[] = views_conditional
+dependencies[] = views_content_cache
+dependencies[] = views_flag_refresh
+dependencies[] = views_puc
+dependencies[] = views_ui
+; Voting
+dependencies[] = rate
+dependencies[] = rate_slider
+dependencies[] = votingapi
+; Workbench
+dependencies[] = workbench
+dependencies[] = workbench_moderation
+

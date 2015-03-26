@@ -1,0 +1,7 @@
+@import "../../variables/_colors";
+@import "global.smallScreen";
+
+
+@media screen and (min-width: 960px){
+  @import "global.largeScreen";
+}

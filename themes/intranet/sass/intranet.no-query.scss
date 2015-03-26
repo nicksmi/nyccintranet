@@ -1,0 +1,12 @@
+$breakpoint-no-queries: true;
+$breakpoint-no-query-fallbacks: true;
+
+
+// Re-render everything from styles.scss but without media queries.
+@import "intranet.styles";
+@import "components/partials/search.largeScreen";
+@import "components/partials/_landingpage.largeScreen";
+
+.l-region--topsearch div.search-bar div.search-form{
+	margin-top:-4px;
+}

@@ -1,0 +1,116 @@
+/** Reply to individual comments.. **/
+div.indented{
+  margin-left:0;
+  padding-left:0;
+  
+
+  article.comment{
+    padding-left:5px;
+    border-top:none;
+    margin-top:2px;
+    border-top:thin dotted $primary;
+    background-color:lighten($border,5%);
+    margin-bottom:5px;
+
+    .comment-title-bar{
+      border-bottom:none;
+      .user-picture{
+        img{
+          display:none;
+        }
+      }
+
+      .comment-info
+      span{
+        display:inline-block;
+        font-size:0.9em;
+      }
+
+      h2{ 
+        display:inline-block;
+        margin-right:5px;
+        
+        span a{
+          color: $mainColourLevel2;
+          font-size:0.8em;
+        }
+      }
+    }
+  }
+}
+
+/** Comments **/
+article.comment{
+  margin-top:20px;
+  border-top:thin solid $primary;
+
+  .comment-title-bar{
+    clear:both;
+    overflow:hidden;
+    border-bottom: thin solid lighten($border, 2%);
+
+    .comment-author-image{
+      float:left;
+      margin-right:5px;
+
+      img{
+        height:3.5em;
+        width:3.5em;
+      }
+    }
+
+    .comment-info{
+      float:left;
+
+      h2{
+        margin:0;
+        span{
+          a{
+            color: $mainColourLevel1;      
+          }
+        }
+
+      }
+
+      span{
+        font-family: open_sanslight;
+      }
+    }
+  }
+
+  .comment__content{
+    clear:both;
+    margin-bottom:10px;
+    font-family:open_sanslight;
+    font-size:12px;
+
+    p:first-child{
+      margin-top:0.5em;
+    }
+  }
+
+  ul.comment__links{
+    margin-top:-8px;
+    padding-bottom:8px;
+
+    li{
+      @include button-muted();
+
+      &.comment-delete a:before{
+          font-family: FontAwesome;
+          content: "\f00d \00a0";
+      }
+
+      &.comment-reply a:before{
+        font-family: FontAwesome;
+        content: "\f112 \00a0";
+      }
+
+      &.comment-edit a:before{
+        font-family: FontAwesome;
+        content: "\f044 \00a0";
+      }
+
+    }
+  }
+}
